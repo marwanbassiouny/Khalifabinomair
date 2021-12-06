@@ -7,8 +7,6 @@ const Services=()=> {
   const {t} = useTranslation()
 return (
 <div>
-<Navbar/>
-
   <div className="pageTitle">
   <div className="container">
     <div className="row">
@@ -110,8 +108,6 @@ return (
 
       </div>
       </div>
-    
-    <Footer/>
     </div>
         
     )

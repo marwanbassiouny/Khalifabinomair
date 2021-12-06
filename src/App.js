@@ -24,19 +24,25 @@ import "../node_modules/jquery/dist/jquery.min.js";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 function App() {
+  
   const {i18n} =useTranslation();
+  
   document.body.dir = i18n.dir();
   
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() { AOS.refresh(); }, 500);
+});
+
   AOS.init({
     duration :1100,
     once:false,
-    
   });
 
   return (
     
     <React.Fragment>
        <SscrollToTop>
+         <Navbar/>
       <Routes>
       <Route  path='home' element={<Home/>} />
       <Route  path='/' element={<Home/>} />
@@ -44,6 +50,7 @@ function App() {
       <Route  path='services' element={<Services/>} />
       <Route  path='contactus' element={<ContactUs/>} />
       </Routes> 
+      <Footer/>
       </SscrollToTop>
     </React.Fragment>
   

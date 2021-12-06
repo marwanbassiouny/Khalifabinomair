@@ -20,7 +20,7 @@ const About = ()=> {
 
 
 <div>
-<Navbar/>
+
 <div className="pageTitle">
   <div className="container">
     <div className="row">
@@ -84,7 +84,7 @@ const About = ()=> {
 
 
 { myteam==="dubai" &&
-    <div className="container">      
+    <div id="team">      
     <div className="wel-head">
         <h2 className="wel-title">{t("dubai")}</h2>
         <span className="linee"></span>
@@ -152,8 +152,7 @@ const About = ()=> {
     
 { myteam==="abu dhabi"&&
 
-    <div className="container">
-        
+    <div  id="team">
         <div className="wel-head">
         <h2 className="wel-title">{t("abudhabi")}</h2>
         <span className="linee"></span>
@@ -217,10 +216,6 @@ const About = ()=> {
         </div>
     </div>
     }
- 
-    
-    
-<Footer/>
 </div>
 
   )

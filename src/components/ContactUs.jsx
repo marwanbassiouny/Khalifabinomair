@@ -29,7 +29,6 @@ export const ContactUs = () => {
  
   return (
     <div>
-      <Navbar/>
   <div className="pageTitle">
     <div className="container">
       <div className="row">
@@ -72,7 +71,6 @@ export const ContactUs = () => {
           </div>
         </div>
       </div>
-    <Footer/>
     </div>
   );
 };

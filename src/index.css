@@ -137,7 +137,9 @@ select option{
 {
   background-color: red;
 }
-
+.carousel img{
+  height: 75vh;
+}
 .howitwrap {
 	position: relative;
 	padding:50px 0;
@@ -164,8 +166,9 @@ select option{
 	margin-left: 0
 }
 
-img {
+.howitwrap img {
     max-width: 100%;
+    padding-bottom: 30px;
 }
 
 .howlist li .howbox:after {
@@ -186,8 +189,8 @@ img {
 	border:1px solid #ddd;
 	text-align: center;
 	line-height: 40px;
-  background-color: black;
-  color: gold;
+  background-color: white;
+  color: black;
 }
 
 .howlist li .iconcircle {
@@ -202,8 +205,6 @@ img {
 	font-weight: 700;
 	line-height: 32px;
 }
-
-	
   .section-title h3 span {
     color: #3679dd;
     font-weight: 400;
@@ -222,6 +223,9 @@ img {
 .stcontent {	
 	padding:0 50px;
 }
+ #home-about{
+   color: white;
+ }
 /************************************************************************/
 .flex-container{
   display: flex;
@@ -292,7 +296,7 @@ img {
 /*********************Footer*********************/
 .site-footer
 {
-  background-color:#002A44;
+  background-color:white;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -309,7 +313,7 @@ img {
 }
 .site-footer h6
 {
-  color:gold;
+  color:#3679dd;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
@@ -327,7 +331,7 @@ img {
 }
 .footer-links a
 {
-  color:white;
+  color:black;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -354,7 +358,7 @@ img {
   color: black;
 }
 .text-justify {
-  color: white;
+  color: black;
 }
 .copyright-text
 {
@@ -481,6 +485,7 @@ img {
   color: black;
 
 }
+/************************************************************/
 .about {
   position: relative;
   width: 100%;
@@ -547,8 +552,6 @@ img {
   color: white;
 }
 
-
-
 @media (max-width: 767.98px) {
   .about .about-img {
       margin-bottom: 30px;
@@ -586,14 +589,19 @@ img {
 } */
 /************************************************************************/
 .Team{
-  background-color: white;
+  background-color: #002A44;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
    align-items: center;
 }
-
+#team{
+  background-color: #002A44;
+}
+#team h2{
+  color: white;
+}
 .our-team{
   padding: 20px 15px 30px;
   background: white;
@@ -654,12 +662,9 @@ img {
   line-height: 25px;
   border-radius: 50%;
   font-size: 15px;
-  
   border: 1px solid black;
   transition: all 0.5s ease 0s;
-  
 }
-
 .social a:hover  {
   color:white ;
   background-color: #002A44;
@@ -685,6 +690,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   text-transform: capitalize;
+  
 }
 
 .box{
@@ -705,8 +711,8 @@ img {
   z-index: 2;
   color: black;
 }
-.box h2{
-  color: gold;
+.box h5{
+  color: #3679dd;
 }
 .box::before{
   content: "";
