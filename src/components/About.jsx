@@ -13,7 +13,7 @@ import Footer from './Footer';
 const About = ()=> {
 
     const {t} = useTranslation()
-    const team = ["dubai","abodubai"]
+    const team = [t("dubai"),t("abudhabi")]
     const [myteam,setmyteam] = useState(false)
   
   return (
@@ -37,9 +37,9 @@ const About = ()=> {
         </div>
         
     
-        <div className="about mt-125">
+        <div className="about mt-125 pd-y">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row">
                     <div className="col-md-5">
                         <div className="about-img">
                             <div className="about-img-1">
@@ -52,16 +52,11 @@ const About = ()=> {
                     </div>
                     <div data-aos="fade-up" className="text-about col-md-7">
                         <div className="section-header">
-                            <p>Learn About Us</p>
-                            <h2>25 Years Experience</h2>
+                            <h2>{t("about-us-title")}</h2>
                         </div>
                         <div className="about-text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                            </p>
+                            <p>{t("about-us")}</p>
+                            <p>{t("about-us2")}</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +70,8 @@ const About = ()=> {
       <h3 data-aos="fade-down">Our teams</h3>
     </div>
     <div data-aos="zoom-out-left" className="ctoggle">
-      <p></p>
+        <p>{t("approach")}</p>
+      <p>{t("about-team")}</p>
      </div>
      <div data-aos="fade-up" className="btn-group">
      {team.map(team=>(
@@ -90,7 +86,7 @@ const About = ()=> {
 { myteam==="dubai" &&
     <div className="container">      
     <div className="wel-head">
-        <h2 className="wel-title">Dubai Team</h2>
+        <h2 className="wel-title">{t("dubai")}</h2>
         <span className="linee"></span>
     </div>
 
@@ -154,12 +150,12 @@ const About = ()=> {
     }
 
     
-{ myteam==="abodubai"&&
+{ myteam==="abu dhabi"&&
 
     <div className="container">
         
         <div className="wel-head">
-        <h2 className="wel-title">abu dhabi Team</h2>
+        <h2 className="wel-title">{t("abudhabi")}</h2>
         <span className="linee"></span>
     </div>
 

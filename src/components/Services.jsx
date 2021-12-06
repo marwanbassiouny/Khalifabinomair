@@ -1,8 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
- const Services=()=> {
-
+import { useTranslation } from 'react-i18next';
+ 
+const Services=()=> {
+  const {t} = useTranslation()
 return (
 <div>
 <Navbar/>
@@ -19,7 +21,7 @@ return (
   
     <div className="pd-y">
      <div className="wel-head">
-      <h2 className="wel-title">Our Goals</h2>
+      <h2 className="wel-title">{t("service")}</h2>
         <span className="linee"></span>
       </div>
       
@@ -29,60 +31,81 @@ return (
           <div className="icon">
             <i className="fas fa-desktop"></i>
           </div>
-          <h2>Web Design</h2>
+          <h5>{t("service-title1")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
-          
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>          
         </div>
 
         <div data-aos="flip-down" className="box">
           <div className="icon">
             <i className="fas fa-globe"></i>
           </div>
-          <h2>Web Design</h2>
+          <h5>{t("service-title2")}</h5>
           <span className="line"></span>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
-         
         </div>
         
         <div data-aos="flip-down" className="box ">
           <div className="icon">
             <i className="fas fa-search"></i>
           </div>
-          <h2>Web Design</h2>
+          <h5>{t("service-title3")}</h5>
           <span className="line"></span>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
-          
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
             <i className="fas fa-search"></i>
           </div>
-          <h2>Web Design</h2>
+          <h5>{t("service-title5")}</h5>
           <span className="line"></span>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
-          
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
             <i className="fas fa-search"></i>
           </div>
-          <h2>Web Design</h2>
+          <h5>{t("service-title5")}</h5>
           <span className="line"></span>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
-          
         </div>
         
         <div data-aos="flip-down" className="box ">
           <div className="icon">
             <i className="fas fa-search"></i>
           </div>
-          <h2>Web Design</h2>
+          <h5>{t("service-title6")}</h5>
           <span className="line"></span>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
-          
+        </div>
+
+        <div data-aos="flip-down" className="box ">
+          <div className="icon">
+            <i className="fas fa-search"></i>
+          </div>
+          <h5>{t("service-title7")}</h5>
+          <span className="line"></span>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>        
+        </div>
+
+        <div data-aos="flip-down" className="box ">
+          <div className="icon">
+            <i className="fas fa-search"></i>
+          </div>
+          <h5>{t("service-title7")}</h5>
+          <span className="line"></span>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>        
+        </div>
+
+        <div data-aos="flip-down" className="box ">
+          <div className="icon">
+            <i className="fas fa-search"></i>
+          </div>
+          <h5>{t("service-title7")}</h5>
+          <span className="line"></span>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>        
         </div>
 
       </div>

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { useTranslation } from 'react-i18next';
 
 export const ContactUs = () => {
   const form = useRef();
@@ -18,34 +19,48 @@ export const ContactUs = () => {
       form.current.reset();
   };
   const result=()=>{
-   return(
-     <p>the message is sent </p>
+   
+    return(
+     <p>{t("contact-title6")}</p>
    )
- }
+  }
+
+ const {t} = useTranslation()
+ 
   return (
     <div>
       <Navbar/>
+  <div className="pageTitle">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6 col-sm-6">
+          <h1>About Us</h1>
+        </div>
+      </div>
+    </div>
+    </div>
+
       <div className="contactOverlay">
         <div className="container">
           <div className="form">
           <form ref={form} onSubmit={sendEmail}>
               <div className="formWord">
-                <h2>Say Hello!</h2>
-                <span>Full Name</span>
+                <h2  data-aos="fade-down-right">{t("contact-title1")}</h2>
+                <span>{t("contact-title2")}</span>
                 <br />
                 <input className="input100" type="text" name="fullName" required />
                 <br />
-                <span>Phone Number</span>
+                <span>{t("contact-title3")}</span>
                 <br />
                 <input className="input100" type="text" name="phone" required />
                 <br />
-                <span>Enter Email</span>
+                <span>{t("contact-title4")}</span>
                 <br />
                 <input className="input100" type="text" name="email" required />
                 <br />
               </div>
               <div className="formWord">
-                <span>Message</span>
+                <span>{t("contact-title5")}</span>
                 <br />
                 <textarea name="message" required></textarea>
                 <br />

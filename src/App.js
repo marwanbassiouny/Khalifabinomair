@@ -20,7 +20,8 @@ import {
 } from "react-router-dom";
 import SscrollToTop from "./components/ScrollToTop"
 import { ContactUs } from './components/ContactUs';
-
+import "../node_modules/jquery/dist/jquery.min.js";
+import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 function App() {
   const {i18n} =useTranslation();
