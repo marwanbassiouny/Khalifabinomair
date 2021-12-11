@@ -1,6 +1,12 @@
 import React from 'react'
-import Navbar from './Navbar';
-import Footer from './Footer';
+import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
+import LibraryBooksOutlinedIcon from '@mui/icons-material/LibraryBooksOutlined';
+import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
+import GavelOutlinedIcon from '@mui/icons-material/GavelOutlined';
+import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import DirectionsBoatOutlinedIcon from '@mui/icons-material/DirectionsBoatOutlined';
+
 import { useTranslation } from 'react-i18next';
  
 const Services=()=> {
@@ -11,7 +17,7 @@ return (
   <div className="container">
     <div className="row">
       <div className="col-md-6 col-sm-6">
-        <h1>About Us</h1>
+        <h1>{t("service")}</h1>
       </div>
     </div>
   </div>
@@ -27,83 +33,83 @@ return (
       <div className="main-box">
           <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i className="fas fa-desktop"></i>
+            <i><HomeOutlinedIcon fontSize="large"/></i>
           </div>
           <h5>{t("service-title1")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>          
+          <p></p>          
         </div>
 
         <div data-aos="flip-down" className="box">
           <div className="icon">
-            <i className="fas fa-globe"></i>
+            <i><DirectionsBoatOutlinedIcon fontSize="large"/></i>
           </div>
           <h5>{t("service-title2")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+          <p></p>
         </div>
         
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i className="fas fa-search"></i>
+            <i><LibraryBooksOutlinedIcon fontSize="large"/></i>
           </div>
           <h5>{t("service-title3")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+          <p></p>
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i className="fas fa-search"></i>
+            <i><GavelOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title5")}</h5>
+          <h5>{t("service-title4")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+          <p></p>
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i className="fas fa-search"></i>
+            <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
           </div>
           <h5>{t("service-title5")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+          <p></p>
         </div>
         
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i className="fas fa-search"></i>
+            <i><PersonOutlinedIcon fontSize="large"/></i>
           </div>
           <h5>{t("service-title6")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+          <p></p>
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i className="fas fa-search"></i>
+            <i><ApartmentOutlinedIcon fontSize="large"/></i>
           </div>
           <h5>{t("service-title7")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>        
+          <p></p>        
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i className="fas fa-search"></i>
+            <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title7")}</h5>
+          <h5>{t("service-title8")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>        
+          <p></p>        
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i className="fas fa-search"></i>
+            <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
           </div>
           <h5>{t("service-title7")}</h5>
           <span className="line"></span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>        
+          <p></p>        
         </div>
 
       </div>

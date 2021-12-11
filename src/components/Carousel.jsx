@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import image from "../h1.jpg";
-
+import image from "../images/home-bg.jpg"
+import image2 from "../images/counter-bg.jpg"
 
 
 export default class Carousel extends Component {
@@ -13,7 +13,7 @@ export default class Carousel extends Component {
                 <img src={image} className="d-block w-100" alt="..."></img>
     </div>
     <div className="carousel-item">
-      <img src={image} className="d-block w-100" alt="..."></img>
+      <img src={image2} className="d-block w-100" alt="..."></img>
     </div>
     <div className="carousel-item">
       <img src="..." className="d-block w-100" alt="..."></img>

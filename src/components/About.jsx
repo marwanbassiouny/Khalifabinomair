@@ -3,17 +3,21 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import "aos/dist/aos.css";
 import { useTranslation } from 'react-i18next';
-import image from "../mohamed khalil.jpg";
-import image1 from "../title-bg.jpg";
-import Navbar from './Navbar';
-import Footer from './Footer';
-
-
+import image from "../images/khalifa.jpg"
+import image2 from "../images/videobg.jpg"
+import image3 from "../images/6.jpg"
+import image4 from "../images/basam.jpeg"
+import image5 from "../images/Abdelrahman Al-Sabbah.jpg"
+import image6 from "../images/hussien seif .jpg"
+import image7 from "../images/mohamed khalil.jpg"
+import image8 from "../images/essam.jpg"
+import image10 from "../images/ahmed fouda.png"
+import image9 from "../images/abo.jpg"
 
 const About = ()=> {
 
     const {t} = useTranslation()
-    const team = [t("dubai"),t("abudhabi")]
+    const team = [t("dubai"),t("abu dhabi")]
     const [myteam,setmyteam] = useState(false)
   
   return (
@@ -25,7 +29,7 @@ const About = ()=> {
   <div className="container">
     <div className="row">
       <div className="col-md-6 col-sm-6">
-        <h1>About Us</h1>
+        <h1>{t("aboutus")}</h1>
       </div>
     </div>
   </div>
@@ -42,19 +46,19 @@ const About = ()=> {
                 <div className="row">
                     <div className="col-md-5">
                         <div className="about-img">
-                            <div className="about-img-1">
-                                <img src={image} alt="Image"></img>
+                            <div data-aos="fade-down" className="about-img-1">
+                                <img src={image2} alt="Image"></img>
                             </div>
-                            <div className="about-img-2">
-                                <img src={image} alt="Image"></img>
+                            <div data-aos="fade-left" className="about-img-2">
+                                <img src={image3} alt="Image"></img>
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-up" className="text-about col-md-7">
-                        <div className="section-header">
+                    <div  className="text-about col-md-7">
+                        <div data-aos="fade-down" className="section-header">
                             <h2>{t("about-us-title")}</h2>
                         </div>
-                        <div className="about-text">
+                        <div data-aos="fade-down-left" className="about-text">
                             <p>{t("about-us")}</p>
                             <p>{t("about-us2")}</p>
                         </div>
@@ -71,7 +75,7 @@ const About = ()=> {
     </div>
     <div data-aos="zoom-out-left" className="ctoggle">
         <p>{t("approach")}</p>
-      <p>{t("about-team")}</p>
+      
      </div>
      <div data-aos="fade-up" className="btn-group">
      {team.map(team=>(
@@ -83,7 +87,7 @@ const About = ()=> {
 </div>
 
 
-{ myteam==="dubai" &&
+{ myteam=== t("dubai") &&
     <div id="team">      
     <div className="wel-head">
         <h2 className="wel-title">{t("dubai")}</h2>
@@ -94,7 +98,7 @@ const About = ()=> {
             <div className="col-md-3 col-sm-6">
                 <div data-aos="fade-up" data-aos-duration="3000" className="our-team">
                     <div className="pic">
-                    <img src={image}></img>
+                    <img src={image8}></img>
                     </div>
                     <h3 className="title">Name</h3>
                     <span className="post">Lawyer</span>
@@ -104,11 +108,11 @@ const About = ()=> {
                     </ul>
                 </div>
             </div>
-     
+
             <div className="col-md-3 col-sm-6">
                 <div data-aos="fade-up" data-aos-duration="2600" className="our-team">
                     <div className="pic">
-                        <img src={image}></img>
+                        <img src={image4}></img>
                     </div>
                     <h3 className="title">Name</h3>
                     <span className="post">Lawyer</span>
@@ -122,7 +126,7 @@ const About = ()=> {
             <div className="col-md-3 col-sm-6">
                 <div data-aos="fade-up" data-aos-duration="2000" className="our-team">
                     <div className="pic">
-                    <img src={image}></img>
+                    <img src={image6}></img>
                     </div>
                     <h3 className="title">Name</h3>
                     <span className="post">Lawyer</span>
@@ -135,7 +139,20 @@ const About = ()=> {
             <div className="col-md-3 col-sm-6">
                 <div data-aos="fade-up" data-aos-duration="1700" className="our-team">
                 <div className="pic">
-                    <img src={image}></img>
+                    <img src={image10}></img>
+                </div>
+                    <h3 className="title">Name</h3>
+                    <span className="post">Lawyer</span>
+                    <ul className="social">
+                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+                <div data-aos="fade-up" data-aos-duration="1700" className="our-team">
+                <div className="pic">
+                    <img src=""></img>
                 </div>
                     <h3 className="title">Name</h3>
                     <span className="post">Lawyer</span>
@@ -150,11 +167,11 @@ const About = ()=> {
     }
 
     
-{ myteam==="abu dhabi"&&
+{ myteam===t("abu dhabi")&&
 
     <div  id="team">
         <div className="wel-head">
-        <h2 className="wel-title">{t("abudhabi")}</h2>
+        <h2 className="wel-title">{t("abu dhabi")}</h2>
         <span className="linee"></span>
     </div>
 
@@ -162,7 +179,7 @@ const About = ()=> {
             <div className="col-md-3 col-sm-6">
                 <div data-aos="fade-up" data-aos-duration="3000" className="our-team">
                     <div className="pic">
-                    <img src={image}></img>
+                    <img src={image7}></img>
                     </div>
                     <h3 className="title">Name</h3>
                     <span className="post">Lawyer</span>
@@ -176,7 +193,7 @@ const About = ()=> {
             <div className="col-md-3 col-sm-6">
                 <div data-aos="fade-up" data-aos-duration="2600" className="our-team">
                     <div className="pic">
-                        <img src={image}></img>
+                        <img src={image9} ></img>
                     </div>
                     <h3 className="title">Name</h3>
                     <span className="post">Lawyer</span>
@@ -190,7 +207,7 @@ const About = ()=> {
             <div className="col-md-3 col-sm-6">
                 <div data-aos="fade-up" data-aos-duration="2000" className="our-team">
                     <div className="pic">
-                    <img src={image}></img>
+                    <img src={image5}></img>
                     </div>
                     <h3 className="title">Name</h3>
                     <span className="post">Lawyer</span>
@@ -203,7 +220,7 @@ const About = ()=> {
             <div className="col-md-3 col-sm-6">
                 <div data-aos="fade-up" data-aos-duration="1700" className="our-team">
                 <div className="pic">
-                    <img src={image}></img>
+                    <img ></img>
                 </div>
                     <h3 className="title">Name</h3>
                     <span className="post">Lawyer</span>

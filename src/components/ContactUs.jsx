@@ -33,7 +33,7 @@ export const ContactUs = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-6 col-sm-6">
-          <h1>About Us</h1>
+          <h1>{t("contactus")}</h1>
         </div>
       </div>
     </div>

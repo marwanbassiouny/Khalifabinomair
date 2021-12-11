@@ -1,17 +1,34 @@
-import i18next from "i18next";
+import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import HttpApi from "i18next-http-backend";
+import detector from "i18next-browser-languagedetector";
+import translation from './locales/ar/translation.json';
+import translatione from './locales/en/translation.json';
 
-i18next
-  .use(initReactI18next)
-  .use(HttpApi) // Registering the back-end plugin
-  .init({
-    // Remove resources from here
-    lng: "en",
+const resources = {
+  AR: {
+    translation: translation
+  },
+  EN: {
+    translation: translatione
+  }
+};
+
+i18n
+.use(initReactI18next)
+.use(detector)
+
+  
+.init({
+  resources,
+    fallbackLng: "EN",
+    keySeparator: false, 
     interpolation: {
       escapeValue: false,
+    },
+    react: {
+      useSuspense: false
     },
     debug: process.env.NODE_ENV === "development",
   });
 
-export default i18next;
+export default i18n;

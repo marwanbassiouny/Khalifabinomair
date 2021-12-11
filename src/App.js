@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
+import './index.css';
+
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Carousel from './components/Carousel';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import './i18n' 
@@ -25,10 +25,6 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 function App() {
   
-  const {i18n} =useTranslation();
-  
-  document.body.dir = i18n.dir();
-  
   document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() { AOS.refresh(); }, 500);
 });
@@ -43,6 +39,7 @@ function App() {
     <React.Fragment>
        <SscrollToTop>
          <Navbar/>
+
       <Routes>
       <Route  path='home' element={<Home/>} />
       <Route  path='/' element={<Home/>} />

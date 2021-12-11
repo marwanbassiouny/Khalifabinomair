@@ -1,12 +1,12 @@
 import React  from 'react'
-import image from "../khalifa.jpg"
+
 import GavelOutlinedIcon from '@mui/icons-material/GavelOutlined';
 import AccountBalanceOutlinedIcon from '@mui/icons-material/AccountBalanceOutlined';
 import WorkOutlinedIcon from '@mui/icons-material/WorkOutlined';
 import "aos/dist/aos.css"
 import { useTranslation } from 'react-i18next';
 import Carousel from './Carousel';
-
+import image from "../images/khalifa.jpg"
 
 const Home =()=> {
     
@@ -19,10 +19,9 @@ const Home =()=> {
   <div className="container">
     <div className="howitwrap">
             <div className="row">
-                <div className="col-md-5"><img src={image} alt="" /></div>
-                    <div className="col-md-7">
+                <div data-aos="fade-down" className="col-md-5"><img src={image} alt="" /></div>
+          <div className="col-md-7">
           <div className="stcontent"> 
-          
           <div className="section-title">
             <h3 className="titlee" data-aos="fade-down" >
               {t("welcome")} <span data-aos="fade-down">{t("to")}</span></h3> 

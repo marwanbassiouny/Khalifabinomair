@@ -138,7 +138,7 @@ select option{
   background-color: red;
 }
 .carousel img{
-  height: 75vh;
+  height: 80vh;
 }
 .howitwrap {
 	position: relative;
@@ -329,14 +329,14 @@ select option{
 {
   display:block
 }
-.footer-links a
+.footer-links a 
 {
+  text-decoration: none;
   color:black;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
   color:gold;
-  text-decoration:none;
 }
 .footer-links.inline li
 {
@@ -435,7 +435,7 @@ select option{
 }
 /******************************************/
 .pageTitle {
-	background:url(/src/title-bg.jpg) no-repeat;
+	background:url(/src/images/title-bg.jpg) no-repeat;
 	background-size: cover;
 	padding: 55px 0;
   color: white;
@@ -459,7 +459,7 @@ select option{
 	font-weight: 300;
 }
 .bg1 {
-	background: url(/src/service-bg-1.jpg) no-repeat left;
+	background: url(/src/images/service-bg-1.jpg) no-repeat left;
 	background-size: cover;
 }
 .btn-group button {
@@ -506,6 +506,7 @@ select option{
   overflow: hidden;
   transition: .5s;
 }
+
 
 .about .about-img::after {
   position: absolute;
@@ -627,8 +628,8 @@ select option{
 }
 
 .pic img{
-  width: 100%;
-  height: auto;
+  width: 260px;
+  height: 235px;
   border-radius: 50%;
 }
 .our-team .title{
@@ -734,15 +735,14 @@ select option{
 }
 
 .box .icon{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: black;
   text-align: center;
   display: inline-block;
   position: relative;
+  color: #3679dd;
 }
-
+.icon i{
+  font-size: large;
+}
 .line{
   margin-top: 10px;
   margin-bottom: 10px;
