@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -25,6 +24,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 function App() {
   
+
   document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() { AOS.refresh(); }, 500);
 });

@@ -108,22 +108,24 @@ code {
   color: gold;
   transition: 1s;
 }
-select{
-  background-color: #002A44;
-  transition: 1s;
+.dropbtn {
+  background-color: black;
   color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  width: 80px;
 }
-select:hover{
-  background-color:gold;
- color: black;
-}
-select option{
-  background-color: white;
-}
+
 .dropdown {
   position: relative;
   float: right;
-  margin: 8px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: gold;
+  transition: 1s;
+  color: black;
 }
 
 /************************************************/
