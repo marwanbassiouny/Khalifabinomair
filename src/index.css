@@ -1,4 +1,4 @@
-body {
+body,html {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -6,12 +6,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-transform: capitalize;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
 /********************Navbar*********************/
 /* .navbar img{
  float: left;
@@ -23,15 +27,13 @@ code {
   font-size: 25px;
   color: wheat;
   font-weight: 300;
-  padding: 1rem 1rem 2rem 1rem ;
+  padding: 0.5rem 1rem 0.5rem 1rem ;
   text-decoration: none;
 }
 .navbar{
   background-color: #002A44;
 }
 .navtext {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   padding-left: 0.5rem;
   text-transform:capitalize;
   color:white;
@@ -43,18 +45,18 @@ code {
   transition: 0.8s;
 }
 .fixed{
-  position: sticky;
-  top: 0;
-  z-index: 8;
+  position: fixed;
+  width: 100%; 
+  z-index: 2;
 }
+
 .header{
   background-color: #002A44;
   display: flex;
   align-items: center;
   position: relative;
-  position: sticky;
-  
 }
+
  .header .iconbtnn{
   font-size: 17px;
   color: #fff;
@@ -95,7 +97,7 @@ code {
   height: 100%;
   border-radius:1px ;
   z-index: 0;
-  background: white;
+  background: #3679dd;
   transition: 1s;
   border-radius: 30%;
 }
@@ -105,16 +107,18 @@ code {
   opacity: 0;
 }
 .header .iconbtn:hover::before{
-  color: gold;
+  color: white;
   transition: 1s;
 }
+
 .dropbtn {
-  background-color: black;
+  position: relative;
+  background-color: #002A44;
   color: white;
-  padding: 10px;
-  font-size: 14px;
+  padding: 16px;
+  font-size: 16px;
   border: none;
-  width: 80px;
+  transition: 0.8s;
 }
 
 .dropdown {
@@ -123,16 +127,15 @@ code {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: gold;
-  transition: 1s;
-  color: black;
+  background-color: white;
+  color: #3679dd;
 }
-
 /************************************************/
 .pd-y {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon
@@ -140,7 +143,7 @@ code {
   background-color: red;
 }
 .carousel img{
-  height: 80vh;
+  height: 90vh;
 }
 .howitwrap {
 	position: relative;
@@ -184,7 +187,7 @@ code {
 .howlist li .iconcircle {
 	margin-bottom: 15px;
 	float: left;
-	margin-right: 30px;
+	margin:0 50px 40px 0;
 	width: 50px;
 	height: 50px;
 	border-radius: 5px;
@@ -193,10 +196,6 @@ code {
 	line-height: 40px;
   background-color: white;
   color: black;
-}
-
-.howlist li .iconcircle {
-	margin-bottom: 50px;
 }
 
 .section-title h3 {
@@ -228,6 +227,31 @@ code {
  #home-about{
    color: white;
  }
+ 
+@media only screen and (max-width:480px)
+{
+  .howbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .howlist li .iconcircle{
+    margin: 10px 0 10px 0 ;
+  }
+} 
+@media only screen and (max-width:720px)
+{
+  .howbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .howlist li .iconcircle{
+    margin: 10px 0 10px 0 ;
+  }
+}
 /************************************************************************/
 .flex-container{
   display: flex;
@@ -438,9 +462,10 @@ code {
 /******************************************/
 .pageTitle {
 	background:url(/src/images/title-bg.jpg) no-repeat;
-	background-size: cover;
+	background-size:auto;
 	padding: 55px 0;
   color: white;
+  padding-top: 28vh;
 }
 .servicesbox {
 	margin: 70px 0;
@@ -509,7 +534,6 @@ code {
   transition: .5s;
 }
 
-
 .about .about-img::after {
   position: absolute;
   content: "";
@@ -561,35 +585,7 @@ code {
       height: auto;
   }
 }
-/* .aboutus{
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: center;
-  background-color: #002A44;
-}
-.about-Desc h3{
-  color:#3679dd ;
-  font-size: 30px;
-  margin-bottom: 100px;
-}
-.about-Desc p {
-  color:red;
-  font-size: 20px;
-  
-}
-.about-img{
-  
-  margin-left: 15px;
-}
-.about-img img{
-  flex: 1;
-  float: right;
- width: 100%;
-}
-.about-desc h3 {
-	font-size: 24px;
-} */
+
 /************************************************************************/
 .Team{
   background-color: #002A44;
@@ -704,7 +700,7 @@ code {
   padding: 40px 20px;
   color: gold;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   border-radius: 5px;
   background-color:white;
 
@@ -779,6 +775,7 @@ code {
   padding-bottom: 10%;
   background-color: white;
 }
+
 .form {
   width: 100%;
   display: -webkit-box;
@@ -823,7 +820,7 @@ form h2{
   color: gold;
 }
 .formWord {
-  width: 40%;
+  width: 50%;
   padding: 4%;
 }
 .formWord h2 {
@@ -849,4 +846,25 @@ form h2{
   height: 80px;
   color: black;
   padding-left: 3%;
+}
+
+@media only screen and (max-width: 720px) {
+  
+  
+  form{
+    width: 100%;
+    flex-direction: column;
+  }
+  .formWord{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {  
+  form{
+    width: 100%;
+    flex-direction: column;
+  }
+  .formWord{
+    width: 100%;
+  }
 }

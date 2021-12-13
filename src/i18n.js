@@ -5,10 +5,10 @@ import translation from './locales/ar/translation.json';
 import translatione from './locales/en/translation.json';
 
 const resources = {
-  AR: {
+  ar: {
     translation: translation
   },
-  EN: {
+  en: {
     translation: translatione
   }
 };
@@ -20,7 +20,7 @@ i18n
   
 .init({
   resources,
-    fallbackLng: "EN",
+    fallbackLng: "en",
     keySeparator: false, 
     interpolation: {
       escapeValue: false,

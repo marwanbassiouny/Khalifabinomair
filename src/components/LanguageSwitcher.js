@@ -7,44 +7,21 @@ function LanguageSwitcher() {
 
   const { i18n } = useTranslation();
 
-  const changeLanguage = (lng) => {
-    
-    i18n.changeLanguage(lng);
-    
-    
-  }
-const direction =(lng)=>{
-  if (lng==="AR"){
-      document.body.dir = "rtl"
-  } 
-  else if (lng==="EN")
-  {
-    document.body.dir = "ltr"
-  }
+  
+  
+  const changeLanguage = () => {
+    i18n.changeLanguage(i18n.language === "ar" ? "en" : "ar");
+    //change html layout dependent on user selected language
+    document.body.setAttribute("lang", i18n.language);
+    document.body.setAttribute("dir", i18n.language === "en" ? "ltr" : "rtl");
+    document.body.setAttribute("class", i18n.language === "en" ? "text-left" : "text-right");
 }
   
-  
   return (
-    
-
     <div >
-    <button className="dropbtn" onClick={() =>
-    {
-    changeLanguage('AR');
-    direction("AR");
-    
-    }}>AR
-    </button>
-
-    <button className="dropbtn" onClick={() =>
-    {
-    changeLanguage('EN');
-    direction("EN");
-    }}>EN
-    </button>
-    </div>
+    <button className="dropbtn" onClick={() =>changeLanguage()}>Language</button>
+  </div>
   
-
   );
 }
 

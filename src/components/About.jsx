@@ -22,9 +22,7 @@ const About = ()=> {
   
   return (
 
-
 <div>
-
 <div className="pageTitle">
   <div className="container">
     <div className="row">
@@ -41,7 +39,7 @@ const About = ()=> {
         </div>
         
     
-        <div className="about mt-125 pd-y">
+        <div className="about pd-y">
             <div className="container">
                 <div className="row">
                     <div className="col-md-5">

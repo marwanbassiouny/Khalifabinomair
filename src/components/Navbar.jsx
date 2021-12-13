@@ -11,16 +11,18 @@ const Navbar =()=> {
   const {t} = useTranslation()
         
         return (
+
 <div className="fixed">
-    
         <div className="header">
             <div className="container">
                  <Link to="#" className="iconbtn "><FacebookOutlinedIcon/></Link>
                  <Link to="#" className="iconbtn"></Link>
                  <Link to="#" className="iconbtn"></Link>
-                 <div className="dropdown">
-                <LanguageSwitcher/>
-                  </div>
+                 <div className='dropdown'>
+                   <LanguageSwitcher/>
+                 </div>
+                
+               
                 </div>
               </div>
         
