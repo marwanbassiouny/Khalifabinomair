@@ -3,6 +3,8 @@ import { initReactI18next } from "react-i18next";
 import detector from "i18next-browser-languagedetector";
 import translation from './locales/ar/translation.json';
 import translatione from './locales/en/translation.json';
+import Backend from 'i18next-http-backend';
+import I18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 
 const resources = {
   ar: {
@@ -17,7 +19,8 @@ i18n
 .use(initReactI18next)
 .use(detector)
 
-  
+.use(Backend)
+.use(I18nextBrowserLanguageDetector)
 .init({
   resources,
     fallbackLng: "en",

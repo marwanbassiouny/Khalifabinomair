@@ -13,6 +13,8 @@ import image7 from "../images/mohamed khalil.jpg"
 import image8 from "../images/essam.jpg"
 import image10 from "../images/ahmed fouda.png"
 import image9 from "../images/abo.jpg"
+import image12 from "../images/nessren.jpg"
+import image11 from "../images/salma.jpg"
 
 const About = ()=> {
 
@@ -34,7 +36,7 @@ const About = ()=> {
 </div>
 
     <div className="wel-head pd-x">
-      <h2 className="wel-title">About Us</h2>
+      <h2 className="wel-title">{t("about")}</h2>
         <span className="linee"></span>
         </div>
         
@@ -69,7 +71,7 @@ const About = ()=> {
 <div className="servicesbox bg1">
   <div className="container">
     <div className="section-title">
-      <h3 data-aos="fade-down">Our teams</h3>
+      <h3 data-aos="fade-down">{t("ourteam")}</h3>
     </div>
     <div data-aos="zoom-out-left" className="ctoggle">
         <p>{t("approach")}</p>
@@ -215,19 +217,36 @@ const About = ()=> {
                     </ul>
                 </div>
             </div>
+
             <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="1700" className="our-team">
-                <div className="pic">
-                    <img ></img>
-                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" className="our-team">
+                    <div className="pic">
+                    <img src={image12}></img>
+                    </div>
                     <h3 className="title">Name</h3>
                     <span className="post">Lawyer</span>
                     <ul className="social">
                     <li><a  href="#"><FacebookOutlinedIcon/></a></li>
-                    <li><a href="#"><LinkedInIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li> 
                     </ul>
                 </div>
             </div>
+
+            <div className="col-md-3 col-sm-6">
+                <div data-aos="fade-up" data-aos-duration="2000" className="our-team">
+                    <div className="pic">
+                    <img src={image11}></img>
+                    </div>
+                    <h3 className="title">Name</h3>
+                    <span className="post">Lawyer</span>
+                    <ul className="social">
+                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li> 
+                    </ul>
+                </div>
+            </div>
+
+            
         </div>
     </div>
     }

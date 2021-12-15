@@ -8,7 +8,7 @@ import "./index.css";
 
 ReactDOM.render(
   
-     <React.Suspense fallback="">
+     <React.Suspense >
       <BrowserRouter>
       <App />
     </BrowserRouter>

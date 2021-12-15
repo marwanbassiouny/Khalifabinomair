@@ -4,6 +4,8 @@
     "aboutus":"about us",
     "service":"services",
     "contactus":"contact us",
+    "language":"language",
+    "about":"about us",
 
     "Introduction":"it is in your best interest to choose the best law firm that is likely to win the case for you otherwise you leave yourself prone to endless complications that almost end up with the loss of your case interests and rights If you are seeking legal aid as an individual or a corporate entity consider an expert law agency with a distinguished record of winning cases in the mazes ofcourts and legal system an expert who is characterized by integrity andcommitment that can help him dedicate time and effort for your case as if it is his own. We indeed honor the pledge that we have made in our office",
     "vision":"our vision",
@@ -24,7 +26,8 @@
     "about-us-title":"In our law firm and legal advice.",
     "about-us2":"We are classified among the best law firms in UAE, encompassing the elite of advocates and legal consultants who possess diversely comprehensive experiences in different legal fields. Our purpose is to achieve our desired aim of the client as soon as possible maintaining high efficiency. We are qualified to do so before all court of Emirates through our office",
     "approach":"Our law office is distinguished by professionl team that has strong lasting relationships which we build with our valued clients.These are not only clients, they are our lifelong partners and stakeholders with an important role in our success journey. We start it by sitting with our clients, and listen completely to what they want to explain, then we search in the backgrounds of their cases in light of our long experiences and inquire about their litigants, use their local criminal records, and estimate the possibilities of success of their cases, and finally we provide our opinion in this case. When the client opts for our quotation and desires to complete the legal representation procedures, the case becomes ours. Thus, you released the power of law against those who infringed your rights and damaged your interests.",
-    
+    "ourteam":"our team ",
+
     "dubai":"dubai",
     "abu dhabi":"abu dhabi",
     "member1":"",
@@ -35,11 +38,41 @@
     "service-title3":"criminal law",
     "service-title3":"commerical law",
     "service-title4":"litigation",
-    "service-title5":"labor&employment law",
+    "service-title5":"labor&employment",
     "service-title6":"personal status,inheritance",
     "service-title7":"establishment of companies",
     "service-title8":"merger&aquisition",
-    
+    "service-title9":"criminal law",
+    "service-title10":"Banking & Finance",
+    "service-1":"Our lawyers and consultants have years of experience in the country's real estate market and its laws. We offer professional legal assistance to support clients in cases involving land purchase, real estate financing,and investing successfully in the market, to name a few. We use our legal expertise to develop various types of contracts and real estate documents,settle disputes, handle property issues and represent clients in the selling or buying of property."
+    ,
+    "service-2":"Our lawyers and legal advisors have been providing legal consultancy services in the field of shipping and maritime law for decades. Our goal is to help you accomplish your goal successfully! Our team offers services for representation of shipping companies and handles cases involving ship detentions, marine insurance, maritime pollution issues, and compensation and shipping agreements. We also handle legal issues in ship building, buyingor selling ships as well as having the vessel registered in a timely manner,and other marine law cases and procedures."
+    ,
+    "service-3":"AE has become an important economic center in the region. Commercial law and companies' law have witnessed many changes and development in many of their complex branches. Our expert lawyers have kept themselves up-to-date about these recent developments and remained active in the fields to develop a thorough understanding of their laws and State practices.Not surprisingly, this constantly developed knowledge enables them to handle any client case involving business deals, disputes between or among companies, contract and agreement drafts, corporate purchasing and merger issues, financial issues (including liquidation cases), legislation and banking procedures, trade representation agreements."
+    ,
+    "service-4":"We provide you with the proper legal consultancies and legal representation for litigation purposes in all criminal, civil, commercial fields, etc. Our efficient advocates and consultants have represented a lot of our clients along the previous decades in all stages of litigation before local and federal courts,prepared regulations and petitions, represented clients before courts of the state with its different degrees and types. We are distinguished in civil, commercial, criminal cases and disputes related to fright and marine field. We have strong background in lease disputes, personal status claims,family claims, open reports and claims, prepare, and supervise settlement agreements, civil claims and other litigation procedures."
+    ,
+    "service-5":"Our office provides complete legal services for labor issues according to the state laws set for employees and employers. These services include without limitation, providing services for those seeking consultation on labor rights, requesting mediation services or evaluations of compensation claims,requesting legal aid for residency, transfer and cancellation cases (including:work escape, cases of deprivation and refutation, etc.) and other legal needs."
+    ,
+    "service-6":""
+    ,
+    "service-7":""
+    ,
+    "service-8":""
+    ,
+    "service-9":"Our team has wide and deep experiences in undertaking criminal cases before local courts, our efforts are focused on helping our clients efficiently and rapidly. Our activities in the criminal law field include representing clients before public prosecutors, criminal investigations, provide and provevidence, perform release procedures, etc."
+    ,
+    "service-10-1":"The UAE’s banking and financial sectors are vibrant, dynamic and constantly evolving towards global best practice. Our legal team brings years of local expertise and international experience to navigate a changing environment as new products,technologies and regulatory frameworks are introduced."
+    ,
+    "service-10-2":"Our practice supports banks and financial institutions on their legal affairs, licensing and incorporation. We also advise corporate and commercial clients on financial and commercial transactions, preparation of loan agreements, insolvency, asset, private equity, real estate, project, trade and acquisition financing, anti-money-laundering, compliance with Shariah Law and regulations among others"
+    ,
+    "service-10-3":"Our team of banking and finance litigation lawyers are experts in financial dispute resolution including banking disputes,enforcements,compliance,corporate governance,bankruptcy,fraud and financial crime. We represent our clients in both local UAE courts and as well as DIFC courts."
+    ,
+    "service-10-4":"We regularly assist with ensuring compliance with tenets of Islamic finance,overseeing the creation of investment funds and structures,and the development of new financial products adhering to local law and Shariah principles."
+    ,
+    "service-10-5":"We provide counsel to clients on structuring the purchase and sale of large assets such as property,vehicle fleets,oil rigs, ships,manufacturing plants and other industrial equipment."
+    ,
+
     "contact-title1":"say hello!",
     "contact-title2":"name:",
     "contact-title3":"phone number:",
