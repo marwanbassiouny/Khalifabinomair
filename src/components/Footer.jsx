@@ -3,6 +3,7 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
  const Footer =()=>{
     
@@ -15,29 +16,29 @@ import { useTranslation } from 'react-i18next';
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6">
-            <h6>About</h6>
+            <h6>{t("aboutus")}</h6>
             <p className="text-justify">{t("footer-about")}</p>
           </div>
 
           <div className="col-xs-6 col-md-3">
-            <h6>Services</h6>
+            <h6>{t("servicee")}</h6>
             <ul className="footer-links">
-              <li><a href="">{t("service-title1")}</a></li>
-              <li><a href="">{t("service-title2")}</a></li>
-              <li><a href="">{t("service-title3")}</a></li>
-              <li><a href="">{t("service-title4")}</a></li>
-              <li><a href="">{t("service-title5")}</a></li>
-              <li><a href="">{t("service-title6")}</a></li>
+              <li><Link to="/realstate">{t("service-title1")}</Link></li>
+              <li><Link to="/maritime">{t("service-title2")}</Link></li>
+              <li><Link to="/commerical">{t("service-title3")}</Link></li>
+              <li><Link to="/litigation">{t("service-title4")}</Link></li>
+              <li><Link to="/labor">{t("service-title5")}</Link></li>
+              <li><Link to="/Criminal">{t("service-title9")}</Link></li>
             </ul>
           </div>
 
           <div className="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
+            <h6>{t("links")}</h6>
             <ul className="footer-links">
-              <li><a href="http://scanfcode.com/about/"> {t("home")}</a></li>
-              <li><a href="http://scanfcode.com/contact/">{t("aboutus")}</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">{t("service")}</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">{t("contactus")}</a></li>
+              <li><Link to="/home"> {t("home")}</Link></li>
+              <li><Link to="/Aboutus">{t("aboutus")}</Link></li>
+              <li><Link to="/Services">{t("service")}</Link></li>
+              <li><Link to="/contactus">{t("contactus")}</Link></li>
               
             </ul>
           </div>

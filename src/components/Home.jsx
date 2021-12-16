@@ -71,7 +71,7 @@ const Home =()=> {
       <h1>{t("IntegrityT")}</h1>
     </div>
     <div className="flip-box-back">
-      <h5>{t("Integrity")}</h5>
+      <h4>{t("Integrity")}</h4>
     </div>
   </div>
 </div>
@@ -84,7 +84,7 @@ const Home =()=> {
       <h1>{t("TeamworkT")}</h1>
     </div>
     <div className="flip-box-back">
-      <h5>{t("Teamwork")}</h5>
+      <h4>{t("Teamwork")}</h4>
     </div>
   </div>
 </div>
@@ -95,7 +95,7 @@ const Home =()=> {
       <h1>{t("DiligenceT")}</h1>
     </div>
     <div className="flip-box-back">
-      <h5>{t("Diligence")}</h5>
+      <h4>{t("Diligence")}</h4>
     </div>
   </div>
 </div>

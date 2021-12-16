@@ -1,10 +1,12 @@
 import react from 'react';
 import { useTranslation } from 'react-i18next';
 import image2 from "../images/videobg.jpg"
+import { useNavigate } from 'react-router-dom';
 
 
 const Criminal =()=>{
 const {t} = useTranslation()
+const navigate = useNavigate();
 
 return(
 <div>
@@ -41,6 +43,8 @@ return(
                         <h3 className="titlee" data-aos="fade-down" >
                         <span data-aos="fade-down">{t("service-title9")}</span></h3> 
                         <h5 data-aos="fade-right">{t("service-9")}</h5>
+                        <button type="button" class="btn btn-outline-primary" onClick={() =>  navigate('/Services')}>{t("back")}</button>
+
                     </div>
                     </div>
                 </div>

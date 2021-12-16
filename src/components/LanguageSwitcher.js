@@ -12,9 +12,9 @@
 //   const changeLanguage = () => {
 //     i18n.changeLanguage(i18n.language === "ar" ? "en" : "ar");
 //     //change html layout dependent on user selected language
-//     document.getElementsByTagName("html")[0].setAttribute("lang", i18n.language);
-//     document.getElementsByTagName("html")[0].setAttribute("dir", i18n.language === "en" ? "ltr" : "rtl");
-//     document.getElementsByTagName("html")[0].setAttribute("class", i18n.language === "en" ? "text-left" : "text-right");
+//     document.getElementsByTagName("bo").setAttribute("lang", i18n.language);
+//     document.body.setAttribute("dir", i18n.language === "en" ? "ltr" : "rtl");
+//     document.body.setAttribute("class", i18n.language === "en" ? "text-left" : "text-right");
 // }
   
 //   return (

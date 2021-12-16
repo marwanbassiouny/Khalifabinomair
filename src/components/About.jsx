@@ -79,7 +79,7 @@ const About = ()=> {
      </div>
      <div data-aos="fade-up" className="btn-group">
      {team.map(team=>(
-     <button
+     <button  type="button" class="btn btn-outline-primary"
       onClick={()=>setmyteam (team)}>{team}</button>))}
      
     </div> 

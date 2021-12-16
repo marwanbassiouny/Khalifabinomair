@@ -1,10 +1,12 @@
 import react from 'react';
 import { useTranslation } from 'react-i18next';
 import image2 from "../images/videobg.jpg"
+import { useNavigate } from 'react-router-dom';
 
 
 const Banking =()=>{
 const {t} = useTranslation()
+const navigate = useNavigate();
 
 return(
 <div>
@@ -45,6 +47,8 @@ return(
                         <h5 data-aos="fade-right">{t("service-10-3")}</h5>
                         <h5 data-aos="fade-right">{t("service-10-4")}</h5>
                         <h5 data-aos="fade-right">{t("service-10-5")}</h5> 
+                        <button type="button" class="btn btn-outline-primary" onClick={() =>  navigate('/Services')}>{t("back")}</button>
+
                     </div>
                     </div>
                 </div>

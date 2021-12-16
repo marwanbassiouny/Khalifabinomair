@@ -47,7 +47,7 @@ const Navbarr =()=> {
       <Nav className="navbar-nav mx-auto">
         <Nav.Link href="/Home">{t("home")}</Nav.Link>
         <Nav.Link href="/Aboutus">{t("aboutus")}</Nav.Link>
-        <Nav.Link href="/Services">{t("service")}</Nav.Link>
+        <Nav.Link href="/Services">{t("servicee")}</Nav.Link>
         <Nav.Link href="/contactus" >{t("contactus")}</Nav.Link>
         
       </Nav>

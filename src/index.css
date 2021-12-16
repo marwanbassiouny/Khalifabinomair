@@ -15,6 +15,12 @@ code {
     monospace;
 }
 
+.text-left h5{
+  text-align: left;
+}
+.text-right h5{
+  text-align: right;
+}
 
 /********************Navbar*********************/
 /* .navbar img{
@@ -312,13 +318,13 @@ code {
 
 @media only screen and (max-width:991px)
 {
-  .flip-box-back h5 {
+  .flip-box-back h4 {
     font-size: 15px;
   }
 }
 @media (max-width:480px)
 {
-  .flip-box-back h5 {
+  .flip-box-back h4 {
     font-size: 14px;
   }
 }
@@ -347,7 +353,6 @@ code {
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
-  letter-spacing:2px
 }
 
 .footer-links
@@ -497,10 +502,8 @@ code {
 	background-size: cover;
 }
 .btn-group button {
-  background-color: #011b2b; 
-  border: 1px solid gold; 
-  color: gold; 
-  padding: 8px 20px; 
+  border: 1px solid; 
+  padding: 8px 15px; 
   cursor: pointer; 
   transition: 0.6s;
   font-size: 20px;
@@ -514,11 +517,7 @@ code {
   display: table;
 }
 
-.btn-group button:hover {
-  background-color:whitesmoke;
-  color: black;
 
-}
 /************************************************************/
 .about {
   position: relative;
@@ -639,11 +638,11 @@ code {
 }
 .our-team .pic:hover{
   background: #002A44;
-  border-radius: 25%;
+  border-radius: 45%;
 }
 
 .pic img{
-  width: 95%;
+  width: 280px;
   height: 260px;
   border-radius: 50%;
 }
@@ -714,7 +713,6 @@ code {
   margin: 10px;
   text-align: center;
   padding: 40px 20px;
-  color: gold;
   position: relative;
   z-index: 1;
   border-radius: 20px;
@@ -731,11 +729,9 @@ code {
   padding: 15px;
 }
 
-.box h5{
+.box h4{
   color: #3679dd;
 }
-
-
 
 .box .icon{
   text-align: center;

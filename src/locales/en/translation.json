@@ -2,10 +2,15 @@
     "to":"Khalifa bin omair",
     "home":"Home",
     "aboutus":"about us",
-    "service":"services",
+    "servicee":"services",
     "contactus":"contact us",
     "language":"language",
     "about":"about us",
+    "read":"read more",
+    "links":"quick links"
+    ,
+    "back":"back"
+    ,
 
     "Introduction":"it is in your best interest to choose the best law firm that is likely to win the case for you otherwise you leave yourself prone to endless complications that almost end up with the loss of your case interests and rights If you are seeking legal aid as an individual or a corporate entity consider an expert law agency with a distinguished record of winning cases in the mazes ofcourts and legal system an expert who is characterized by integrity andcommitment that can help him dedicate time and effort for your case as if it is his own. We indeed honor the pledge that we have made in our office",
     "vision":"our vision",
@@ -35,7 +40,6 @@
     "service":"our services",
     "service-title1":"real state issus",
     "service-title2":"maritime law",
-    "service-title3":"criminal law",
     "service-title3":"commerical law",
     "service-title4":"litigation",
     "service-title5":"labor&employment",
@@ -44,6 +48,8 @@
     "service-title8":"merger&aquisition",
     "service-title9":"criminal law",
     "service-title10":"Banking & Finance",
+    "service-title11":"mediation and arbitration",
+
     "service-1":"Our lawyers and consultants have years of experience in the country's real estate market and its laws. We offer professional legal assistance to support clients in cases involving land purchase, real estate financing,and investing successfully in the market, to name a few. We use our legal expertise to develop various types of contracts and real estate documents,settle disputes, handle property issues and represent clients in the selling or buying of property."
     ,
     "service-2":"Our lawyers and legal advisors have been providing legal consultancy services in the field of shipping and maritime law for decades. Our goal is to help you accomplish your goal successfully! Our team offers services for representation of shipping companies and handles cases involving ship detentions, marine insurance, maritime pollution issues, and compensation and shipping agreements. We also handle legal issues in ship building, buyingor selling ships as well as having the vessel registered in a timely manner,and other marine law cases and procedures."
@@ -72,14 +78,20 @@
     ,
     "service-10-5":"We provide counsel to clients on structuring the purchase and sale of large assets such as property,vehicle fleets,oil rigs, ships,manufacturing plants and other industrial equipment."
     ,
-
+    "service-11-1":"The office's priority is to preserve and assist clients with attaining justice. We use our years of experience across legal fields to make sure you have access to fair, just and amicable results before resorting to a law court. We have successfully negotiated a lot of simple to complex mediation and arbitration cases across legal areas. Those were kept out of court, and we have successfully preserved the money and time of our clients (with many leading to profitable settlements. Thanks to our deep experiences and precise understanding local laws in the legal fields and our negotiation skills, we have achieved just and profitable settlements in different fields."
+    ,
+    "service-11-2":"Due to such expertise and competencies, our expertise and consultants have often been used to arbitrate complicated cases. This is due to our thorough and in-depth understanding of the arbitration process, as of pre-arbitration terms and conditions, through the selection of experts and arbitrators itself, and completion of arbitration results procedures."
+    ,
+    
     "contact-title1":"say hello!",
     "contact-title2":"name:",
     "contact-title3":"phone number:",
     "contact-title4":"email:",
     "contact-title5":"message",
     "contact-title6":"the message is sent ",
+    "send":"send"
+    ,
 
     "footer-about":"We always seek to provide the best Legal Services to our clients by balancing the legal risks and interests of clients and choosing the appropriate legal means to resolve disputes along with continuous pursuit to improve the quality of services and develop the performance efficiency." 
-    ,"copyright":"Copyright © 2021 All Rights Reserved by khalifabinomair"
+    ,"copyright":"© 2021 All Rights Reserved"
 }   

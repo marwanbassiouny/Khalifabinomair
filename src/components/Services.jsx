@@ -11,6 +11,7 @@ import { useTranslation } from 'react-i18next';
  
 const Services=()=> {
   const {t} = useTranslation()
+
 return (
 <div>
   <div className="pageTitle">
@@ -36,9 +37,9 @@ return (
           <div className="icon">
             <i><HomeOutlinedIcon  fontSize="large"/></i>
           </div>
-          <h5>{t("service-title1")}</h5>
+          <h4>{t("service-title1")}</h4>
           <span className="line"></span>
-          <Link to="/realstate"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>
         </div>
 
@@ -46,9 +47,9 @@ return (
           <div className="icon">
             <i><DirectionsBoatOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title2")}</h5>
+          <h4>{t("service-title2")}</h4>
           <span className="line"></span>
-          <Link to="/maritime"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="maritime"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>
         </div>
         
@@ -56,9 +57,9 @@ return (
           <div className="icon">
             <i><LibraryBooksOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title3")}</h5>
+          <h4>{t("service-title3")}</h4>
           <span className="line"></span>
-          <Link to="/realstate"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="commerical"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>
         </div>
 
@@ -66,9 +67,9 @@ return (
           <div className="icon">
             <i><GavelOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title4")}</h5>
+          <h4>{t("service-title4")}</h4>
           <span className="line"></span>
-          <Link to="/litigation"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="litigation"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>
         </div>
 
@@ -76,9 +77,9 @@ return (
           <div className="icon">
             <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title5")}</h5>
+          <h4>{t("service-title5")}</h4>
           <span className="line"></span>
-          <Link to="/labor"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="labor"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>
         </div>
         
@@ -86,9 +87,9 @@ return (
           <div className="icon">
             <i><PersonOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title6")}</h5>
+          <h4>{t("service-title6")}</h4>
           <span className="line"></span>
-          <Link to="/realstate"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>
         </div>
 
@@ -96,9 +97,9 @@ return (
           <div className="icon">
             <i><ApartmentOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title7")}</h5>
+          <h4>{t("service-title7")}</h4>
           <span className="line"></span>
-          <Link to="/realstate"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>        
         </div>
 
@@ -106,9 +107,9 @@ return (
           <div className="icon">
             <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title8")}</h5>
+          <h4>{t("service-title8")}</h4>
           <span className="line"></span>
-          <Link to="/realstate"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>        
         </div>
 
@@ -116,9 +117,9 @@ return (
           <div className="icon">
             <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title9")}</h5>
+          <h4>{t("service-title9")}</h4>
           <span className="line"></span>
-          <Link to="/Criminal"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="Criminal"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>        
         </div>
 
@@ -126,9 +127,19 @@ return (
           <div className="icon">
             <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
           </div>
-          <h5>{t("service-title10")}</h5>
+          <h4>{t("service-title10")}</h4>
           <span className="line"></span>
-          <Link to="/banking"><button type="button" class="btn btn-outline-primary">read more</button></Link>
+          <Link to="banking"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <p></p>        
+        </div>
+
+        <div data-aos="flip-down" className="box ">
+          <div className="icon">
+            <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
+          </div>
+          <h4>{t("service-title11")}</h4>
+          <span className="line"></span>
+          <Link to="mediation"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>        
         </div>
 

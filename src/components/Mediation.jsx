@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import image2 from "../images/videobg.jpg"
 import { useNavigate } from 'react-router-dom';
 
-const RealState =()=>{
+const Mediation =()=>{
 
 const {t} = useTranslation()
 const navigate = useNavigate();
@@ -21,12 +21,12 @@ return(
 </div>
 
     <div className="wel-head pd-x">
-      <h2 className="wel-title">{t("service-title1")}</h2>
+      <h2 className="wel-title">{t("service-title11")}</h2>
         <span className="linee"></span>
         </div>
         
     
-        <div className="about serv pd-x">
+        <div className="about serv pd-x ">
             <div className="container">
                 <div className="row">
                     <div className="col-md-5">
@@ -41,9 +41,10 @@ return(
                     <div className="stcontent"> 
                     <div className="section-title">
                         <h3 className="titlee" data-aos="fade-down" >
-                        <span data-aos="fade-down">{t("service-title1")}</span></h3> 
-                        <h5 data-aos="fade-right">{t("service-1")}</h5> 
-                        <button type="button" class="btn btn-outline-primary" onClick={() =>  navigate('/Services')}>{t("back")}</button>
+                        <span data-aos="fade-down">{t("service-title11")}</span></h3> 
+                        <h5 data-aos="fade-right">{t("service-11-1")}</h5>
+                        <h5 data-aos="fade-right">{t("service-11-2")}</h5>
+                        <button type="button" class="btn btn-outline-primary" onClick={() =>  navigate('/Services')}>{t("back")}</button>  
                     </div>
                     </div>
                 </div>
@@ -54,4 +55,4 @@ return(
 
     )
 }
-export default RealState;
+export default Mediation;

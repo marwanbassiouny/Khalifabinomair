@@ -5,6 +5,7 @@ import Footer from './Footer';
 import { useTranslation } from 'react-i18next';
 
 export const ContactUs = () => {
+  
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,12 +19,7 @@ export const ContactUs = () => {
       });
       form.current.reset();
   };
-  const result=()=>{
-   
-    return(
-     <p>{t("contact-title6")}</p>
-   )
-  }
+ 
 
  const {t} = useTranslation()
  
@@ -63,9 +59,9 @@ export const ContactUs = () => {
                 <br />
                 <textarea name="message" required></textarea>
                 <br />
-                <input className="button" type="submit" value="Send" />
+                <input className="button" type="submit" value={t("send")} />
 
-                <div className="row"></div>
+                
               </div>
             </form>
           </div>
