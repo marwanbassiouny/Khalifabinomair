@@ -1,6 +1,7 @@
 import react from 'react';
 import { useTranslation } from 'react-i18next';
-import image2 from "../images/videobg.jpg"
+import image2 from "../images/banking.jpg"
+import image from "../images/bank.jpg"
 import { useNavigate } from 'react-router-dom';
 
 
@@ -26,14 +27,17 @@ return(
         </div>
         
     
-        <div className="about serv pd-x">
+        <div className="about serv pd-y">
             <div className="container">
                 <div className="row">
                     <div className="col-md-5">
                         <div>
                             <div data-aos="fade-down" className="about-img-3">
+                                <img src={image} alt="Image"></img>
+                            </div> 
+                            <div data-aos="fade-up" className="about-img-3">
                                 <img src={image2} alt="Image"></img>
-                            </div>                           
+                            </div>                             
                         </div>
                     </div>
                     

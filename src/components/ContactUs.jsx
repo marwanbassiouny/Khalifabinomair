@@ -53,16 +53,17 @@ export const ContactUs = () => {
                 <br />
                 <input className="input100" type="text" name="email" required />
                 <br />
-              </div>
-              <div className="formWord">
                 <span>{t("contact-title5")}</span>
                 <br />
                 <textarea name="message" required></textarea>
                 <br />
                 <input className="button" type="submit" value={t("send")} />
+              </div>
+              
+                
 
                 
-              </div>
+              
             </form>
           </div>
         </div>

@@ -39,7 +39,7 @@ const Navbarr =()=> {
                 </div>
               </div>
 
-<Navbar className='navbar'  expand="lg">
+<Navbar className='navbar' expand="lg">
   <Container>
     <Navbar.Brand href="/home"><img src="" alt=""></img></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />

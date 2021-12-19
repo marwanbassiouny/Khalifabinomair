@@ -1,6 +1,6 @@
 import react from 'react';
 import { useTranslation } from 'react-i18next';
-import image2 from "../images/videobg.jpg"
+import image2 from "../images/commerical.jpg"
 import { useNavigate } from 'react-router-dom';
 
 
@@ -26,7 +26,7 @@ return(
         </div>
         
     
-        <div className="about serv pd-x">
+        <div className="about serv pd-y">
             <div className="container">
                 <div className="row">
                     <div className="col-md-5">

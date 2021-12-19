@@ -564,6 +564,7 @@ code {
   margin: 0 150px 150px 0;
 }
 .about .about-img-3 {
+  margin-top:10px ;
   position: relative;
   height: 100%;
   height: 100%;
@@ -606,58 +607,51 @@ code {
 /************************************************************************/
 .Team{
   background-color: #002A44;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-   align-items: center;
 }
-#team{
-  background-color: #002A44;
-}
+
 #team h2{
   color: white;
 }
+
+/*////////////////////////////////////////////*/
 .our-team{
   padding: 20px 15px 30px;
-  background: white;
+  background: #fff;
   border-radius: 15px;
-  text-align: center;  
-  transition: 2s;
-  border: 2px solid #d0d0d0;
-  margin: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin:10px;
+ 
 }
-
 .our-team .pic{
   display: inline-block;
   width: 100%;
   height: 100%;
+  background: #fff;
+  padding: 10px;
   margin-bottom: 25px;
   transition: all 0.5s ease 0s;
-
 }
 .our-team .pic:hover{
   background: #002A44;
-  border-radius: 45%;
+  border-radius: 50%;
 }
-
 .pic img{
-  width: 280px;
-  height: 260px;
+  width: 100%;
+  height: 15rem;
   border-radius: 50%;
 }
 .our-team .title{
   display: block;
   font-size: 20px;
   font-weight: 600;
-  color: #002A44;
-  text-transform: uppercase;
+  color: #2e282a;
   margin: 0 0 7px 0;
 }
 .our-team .post{
   display: block;
   font-size: 15px;
-  color: gold;
+  color: #17bebb;
   text-transform: capitalize;
   margin-bottom: 15px;
 }
@@ -677,18 +671,22 @@ code {
   line-height: 25px;
   border-radius: 50%;
   font-size: 15px;
-  border: 1px solid black;
+  color: #17bebb;
+  border: 1px solid #17bebb;
   transition: all 0.5s ease 0s;
 }
-.social a:hover  {
-  color:white ;
-  background-color: #002A44;
+.our-team:hover .social li a:hover{
+  background: #17bebb;
+  color: #fff;
 }
 @media only screen and (max-width: 990px){
-  .our-team{ margin-bottom: 30px; }
+  .our-team{ 
+    margin-bottom: 30px;
+    width: 95%;
+  }
+  
 }
-/*//////////////////////////////////////////*/
-
+/**********************************************/
 .details{
   text-align: center;
 }
@@ -717,7 +715,6 @@ code {
   z-index: 1;
   border-radius: 20px;
   background-color:#002A44;
-  
 }
 
 .box p {
@@ -792,7 +789,7 @@ code {
 }
 
 .form {
-  width: 100%;
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -804,7 +801,7 @@ code {
   align-items: center;
 }
 form {
-  width: 80%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -835,7 +832,7 @@ form h2{
   color: gold;
 }
 .formWord {
-  width: 50%;
+  width: 100%;
   padding: 4%;
 }
 .formWord h2 {
@@ -883,3 +880,83 @@ form h2{
     width: 100%;
   }
 }
+/***************************************************/
+.float-button{
+  
+}
+
+.float-button .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: #145985;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	z-index:1000;
+	animation: bot-to-top 2s ease-out;
+ 
+ }
+
+.float-button ul{
+	position:fixed;
+	padding-bottom:5px;
+	bottom:80px;
+  right: 40px;
+	z-index:100;
+}
+
+.float-button .floatt{
+	background-color:rgb(47, 255, 75);
+	color:#FFF;
+	width:60px;
+	height:60px;
+	display:block;
+  text-align: center;
+  margin:2px;
+  text-decoration: none;
+	border-radius:50px;
+}
+
+.floatt svg{
+ margin-top:10px;
+}
+
+.floatt li{
+font-size: 10px;
+list-style-type: none;
+}
+
+
+.float-button ul:hover{
+	visibility:visible!important;
+	opacity:1!important;
+}
+
+.my-float{
+	font-size:30px;
+}
+
+a#menu-share + ul{
+  /* visibility: hidden; */
+}
+
+a#menu-share:hover + ul{
+  visibility: visible;
+  animation: scale-in 1s;
+ 
+ 
+}
+
+@keyframes bot-to-top {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}
+
+@keyframes scale-in {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;  }
+}
+

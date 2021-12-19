@@ -15,6 +15,8 @@ import image10 from "../images/ahmed fouda.png"
 import image9 from "../images/abo.jpg"
 import image12 from "../images/nessren.jpg"
 import image11 from "../images/salma.jpg"
+import Float from './Floatbutton';
+
 
 const About = ()=> {
 
@@ -25,6 +27,7 @@ const About = ()=> {
   return (
 
 <div>
+<Float/>
 <div className="pageTitle">
   <div className="container">
     <div className="row">
@@ -58,9 +61,9 @@ const About = ()=> {
                         <div data-aos="fade-down" className="section-header">
                             <h2>{t("about-us-title")}</h2>
                         </div>
-                        <div data-aos="fade-down-left" className="about-text">
-                            <p>{t("about-us")}</p>
-                            <p>{t("about-us2")}</p>
+                        <div className="about-text">
+                            <p  data-aos="fade-down-left">{t("about-us")}</p>
+                            <p  data-aos="fade-down-right">{t("about-us2")}</p>
                         </div>
                     </div>
                 </div>
@@ -88,166 +91,165 @@ const About = ()=> {
 
 
 { myteam=== t("dubai") &&
-    <div id="team">      
+    <div >      
     <div className="wel-head">
         <h2 className="wel-title">{t("dubai")}</h2>
         <span className="linee"></span>
     </div>
 
-          <div className="Team">
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="3000" className="our-team">
-                    <div className="pic">
+        <div className="Team pd-y">
+            <div className="container">
+          <div className="row">
+          
+          <div data-aos="fade-up" data-aos-duration="3000" className="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div className="pic">
                     <img src={image8}></img>
-                    </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
+                </div>
+                <h3 className="title">{t("member1-name")}</h3>
+                <span className="post">{t("member1-job")}</span>
+                <ul className="social">
                     <li><a href="#"><FacebookOutlinedIcon/></a></li>
                     <li><a href="#"><LinkedInIcon/></a></li> 
-                    </ul>
-                </div>
+                </ul>
             </div>
-
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="2600" className="our-team">
-                    <div className="pic">
-                        <img src={image4}></img>
-                    </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
-                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
-                    <li><a href="#"><LinkedInIcon/></a></li>
-                    </ul>
-                </div>
-            </div>
+        </div>
+ 
     
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="2000" className="our-team">
-                    <div className="pic">
-                    <img src={image6}></img>
-                    </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
-                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
-                    <li><a href="#"><LinkedInIcon/></a></li> 
-                    </ul>
+
+        <div data-aos="fade-up" data-aos-duration="2600" className="col-md-3 col-sm-6">
+            <div className="our-team">
+                <div className="pic">
+                    <img src={image4}></img>
                 </div>
+                <h3 className="title">{t("member2-name")}</h3>
+                <span className="post">{t("member2-job")}</span>
+                <ul className="social">
+                    <li><a href="#"><FacebookOutlinedIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li> 
+                </ul>
             </div>
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="1700" className="our-team">
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
+            <div className="our-team">
+                <div className="pic">
+                    <img src={image6}></img>
+                </div>
+                <h3 className="title">{t("member3-name")}</h3>
+                <span className="post">{t("member3-job")}</span>
+                <ul className="social">
+                    <li><a href="#"><FacebookOutlinedIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li> 
+                </ul>
+            </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
+            <div className="our-team">
                 <div className="pic">
                     <img src={image10}></img>
                 </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
-                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
-                    <li><a href="#"><LinkedInIcon/></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="1700" className="our-team">
-                <div className="pic">
-                    <img src=""></img>
-                </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
-                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
-                    <li><a href="#"><LinkedInIcon/></a></li>
-                    </ul>
-                </div>
+                <h3 className="title">{t("member4-name")}</h3>
+                <span className="post">{t("member4-job")}</span>
+                <ul className="social">
+                    <li><a href="#"><FacebookOutlinedIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li> 
+                </ul>
             </div>
         </div>
+    </div>
+</div>
+    </div>
     </div>
     }
 
     
 { myteam===t("abu dhabi")&&
 
-    <div  id="team">
+    <div>
         <div className="wel-head">
         <h2 className="wel-title">{t("abu dhabi")}</h2>
         <span className="linee"></span>
     </div>
 
-          <div className="Team">
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="3000" className="our-team">
-                    <div className="pic">
+          <div className="Team pd-y">
+          <div className="container">
+          <div className="row">
+
+          <div data-aos="fade-up" data-aos-duration="3000" className="col-md-3 col-sm-6">
+            <div className="our-team">
+                <div className="pic">
                     <img src={image7}></img>
-                    </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
+                </div>
+                <h3 className="title">{t("member5-name")}</h3>
+                <span className="post">{t("member5-job")}</span>
+                <ul className="social">
                     <li><a href="#"><FacebookOutlinedIcon/></a></li>
                     <li><a href="#"><LinkedInIcon/></a></li> 
-                    </ul>
-                </div>
+                </ul>
             </div>
-     
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="2600" className="our-team">
-                    <div className="pic">
-                        <img src={image9} ></img>
-                    </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
-                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
-                    <li><a href="#"><LinkedInIcon/></a></li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="2000" className="our-team">
-                    <div className="pic">
-                    <img src={image5}></img>
-                    </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
-                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
-                    <li><a href="#"><LinkedInIcon/></a></li> 
-                    </ul>
-                </div>
-            </div>
-
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="2000" className="our-team">
-                    <div className="pic">
-                    <img src={image12}></img>
-                    </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
-                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
-                    <li><a href="#"><LinkedInIcon/></a></li> 
-                    </ul>
-                </div>
-            </div>
-
-            <div className="col-md-3 col-sm-6">
-                <div data-aos="fade-up" data-aos-duration="2000" className="our-team">
-                    <div className="pic">
-                    <img src={image11}></img>
-                    </div>
-                    <h3 className="title">Name</h3>
-                    <span className="post">Lawyer</span>
-                    <ul className="social">
-                    <li><a  href="#"><FacebookOutlinedIcon/></a></li>
-                    <li><a href="#"><LinkedInIcon/></a></li> 
-                    </ul>
-                </div>
-            </div>
-
-            
         </div>
+     
+            <div data-aos="fade-up" data-aos-duration="2600" className="col-md-3 col-sm-6">
+            <div className="our-team">
+                <div className="pic">
+                    <img src={image9}></img>
+                </div>
+                <h3 className="title">{t("member6-name")}</h3>
+                <span className="post">{t("member6-job")}</span>
+                <ul className="social">
+                    <li><a href="#"><FacebookOutlinedIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li> 
+                </ul>
+            </div>
+        </div>
+    
+            <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
+            <div className="our-team">
+                <div className="pic">
+                    <img src={image5}></img>
+                </div>
+                <h3 className="title">{t("member7-name")}</h3>
+                <span className="post">{t("member7-job")}</span>
+                <ul className="social">
+                    <li><a href="#"><FacebookOutlinedIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li> 
+                </ul>
+            </div>
+        </div>
+
+            <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
+            <div className="our-team">
+                <div className="pic">
+                    <img src={image12}></img>
+                </div>
+                <h3 className="title">{t("member8-name")}</h3>
+                <span className="post">{t("member8-job")}</span>
+                <ul className="social">
+                    <li><a href="#"><FacebookOutlinedIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li> 
+                </ul>
+            </div>
+        </div>
+
+            <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
+            <div className="our-team">
+                <div className="pic">
+                    <img src={image11}></img>
+                </div>
+                <h3 className="title">{t("member9-name")}</h3>
+                <span className="post">{t("member9-job")}</span>
+                <ul className="social">
+                    <li><a href="#"><FacebookOutlinedIcon/></a></li>
+                    <li><a href="#"><LinkedInIcon/></a></li> 
+                </ul>
+            </div>
+        </div>
+
+        </div>
+    </div>
+ </div>
     </div>
     }
 </div>

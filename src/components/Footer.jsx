@@ -23,12 +23,12 @@ import { Link } from 'react-router-dom';
           <div className="col-xs-6 col-md-3">
             <h6>{t("servicee")}</h6>
             <ul className="footer-links">
-              <li><Link to="/realstate">{t("service-title1")}</Link></li>
-              <li><Link to="/maritime">{t("service-title2")}</Link></li>
-              <li><Link to="/commerical">{t("service-title3")}</Link></li>
-              <li><Link to="/litigation">{t("service-title4")}</Link></li>
-              <li><Link to="/labor">{t("service-title5")}</Link></li>
-              <li><Link to="/Criminal">{t("service-title9")}</Link></li>
+              <li><Link to="Services/realstate">{t("service-title1")}</Link></li>
+              <li><Link to="Services/maritime">{t("service-title2")}</Link></li>
+              <li><Link to="Services/commerical">{t("service-title3")}</Link></li>
+              <li><Link to="Services/litigation">{t("service-title4")}</Link></li>
+              <li><Link to="Services/labor">{t("service-title5")}</Link></li>
+              <li><Link to="Services/Criminal">{t("service-title9")}</Link></li>
             </ul>
           </div>
 

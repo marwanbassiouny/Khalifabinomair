@@ -32,6 +32,7 @@ import { ThemeProvider } from 'react-bootstrap';
 
 
 
+
 function App() {
   const [locale, setLocale] = useState(i18n.language);
 
@@ -47,6 +48,8 @@ function App() {
     duration :1100,
     once:false,
   });
+ 
+  
 
   return (
     

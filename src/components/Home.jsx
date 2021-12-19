@@ -15,6 +15,7 @@ const Home =()=> {
 <div>
   
   <Carousel/>
+  
   <div className="container">
     <div className="howitwrap">
             <div className="row">
