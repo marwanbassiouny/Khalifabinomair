@@ -89,7 +89,7 @@ return (
           </div>
           <h4>{t("service-title6")}</h4>
           <span className="line"></span>
-          <Link to="realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Link to="personalandinheritance"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>
         </div>
 
@@ -99,7 +99,7 @@ return (
           </div>
           <h4>{t("service-title7")}</h4>
           <span className="line"></span>
-          <Link to="realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Link to="establishofcompanies"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
           <p></p>        
         </div>
 

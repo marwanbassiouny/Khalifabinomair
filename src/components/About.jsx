@@ -27,7 +27,6 @@ const About = ()=> {
   return (
 
 <div>
-<Float/>
 <div className="pageTitle">
   <div className="container">
     <div className="row">

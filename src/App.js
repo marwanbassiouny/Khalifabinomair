@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Services from './components/Services';
 import SscrollToTop from './components/ScrollToTop';
+import Float from 'components/Floatbutton';
 
 import RealState from './components/Realstate';
 import Maritime from './components/Maritime';
@@ -29,6 +30,8 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import i18n from "i18next";
 import Helmet from 'react-helmet';
 import { ThemeProvider } from 'react-bootstrap';
+import Personal from './components/Personal';
+import Companies from './components/Companies';
 
 
 
@@ -66,6 +69,7 @@ function App() {
       <SscrollToTop>
       <ThemeProvider dir={locale === 'en' ? 'ltr' : 'rtl'}>
       <Navbarr />
+      <Float/>
       <Routes>
       <Route  path='/home' element={<Home/>} />
       <Route  path='/' element={<Home/>} />
@@ -80,6 +84,8 @@ function App() {
       <Route  path='Services/labor' element={<Labor/>} />
       <Route  path='Services/mediation' element={<Mediation/>} />
       <Route  path='Services/commerical' element={<Commerical/>} />
+      <Route  path='Services/personalandinheritance' element={<Personal/>} />
+      <Route  path='Services/establishofcompanies' element={<Companies/>} />
       </Routes>
       </ThemeProvider>
       </SscrollToTop> 

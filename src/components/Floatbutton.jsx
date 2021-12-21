@@ -3,27 +3,35 @@ import { useTranslation } from 'react-i18next';
 import { useContext } from 'react';
 import LocaleContext from './LocaleContext';
 
-const Float =()=>{
-    const {t} = useTranslation()
-    const { locale } = useContext(LocaleContext);
 
-      
-    
-        
-   
+const Float =()=>{
+
+    const {t} = useTranslation()
+    const { locale } = useContext(LocaleContext); 
+ 
  return(
    
    <div className="float-button">
-
-    <a href="#" className="float" id="menu-share">
-       <i className="my-float"><WhatsAppIcon /></i>
+       
+<div className="float bounce">    
+    <a href="https://api.whatsapp.com/send?phone=201272406053" className='floatt ' >
+        <i className="my-float"><WhatsAppIcon /></i>
     </a>
-   
-    <ul >
-        <a className="floatt" href="https://api.whatsapp.com/send?phone=971502567619" ><WhatsAppIcon /><li>{t("abu dhabi")}</li></a>
+    <div className="label-container">
+    <div className="label-text">{t("dubai")}</div>
+        <i className="label-arrow"></i>
+    </div>
+ </div> 
 
-        <a className="floatt" href="https://api.whatsapp.com/send?phone=201272406053" ><WhatsAppIcon /><li>{t("dubai")}</li></a>
-    </ul>
+<div className="float bounce"> 
+    <a href="https://api.whatsapp.com/send?phone=201272406053" className='floatt '>
+        <i class="my-float"><WhatsAppIcon /></i>
+    </a>
+    <div className="label-container">
+    <div className="label-text">{t("abu dhabi")}</div>
+        <i className="label-arrow"></i>
+    </div>
+</div>
 
 </div>
     )

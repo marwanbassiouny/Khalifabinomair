@@ -27,10 +27,30 @@ const Navbarr =()=> {
 <div className="fixed">
   <div className="header">
             <div className="container">
-                 <Link to="#" className="iconbtn "><FacebookOutlinedIcon/></Link>
-                 <Link to="#" className="iconbtn"></Link>
-                 <Link to="#" className="iconbtn"></Link>
-                 <div className='dropdown'>
+            <div className="social-icons-header">
+                <a href="#"  title="facebook"> 
+                  <i className="facebook" aria-hidden="true"><FacebookOutlinedIcon/></i>
+                </a>
+                <a href="#" title="twitter"> 
+                  <i className="twitter" aria-hidden="true"><TwitterIcon/></i>
+                </a>
+                <a href="#" title="instagram">  
+                  <i className="instagram" aria-hidden="true"><InstagramIcon/></i>
+                </a>
+                <a href="#" title="youtube">
+                  <i className="fa fa-youtube-square" aria-hidden="true"></i>
+                </a>
+                <a href="#" title="linkedin">
+                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="#" title="pinterest">
+                  <i className="fa fa-pinterest-p" aria-hidden="true"></i>
+                </a>
+                <a href="#" title="camera">
+                  <i className="fa fa-camera-retro" aria-hidden="true"></i>
+                  </a>
+              </div>
+              <div className='dropdown'>
                  <NavDropdown title={t('language')} id="basic-nav-dropdown"> 
                     <NavDropdown.Item  onClick={() => changeLocale('en')}>English</NavDropdown.Item>
                     <NavDropdown.Item  onClick={() => changeLocale('ar')}>العربية</NavDropdown.Item>
