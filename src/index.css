@@ -1,6 +1,6 @@
 body,html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:  'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,10 +10,7 @@ body,html {
   overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 
 .text-left h5{
   text-align: left;
@@ -21,6 +18,7 @@ code {
 .text-right h5{
   text-align: right;
 }
+
 
 /********************Navbar*********************/
 
@@ -179,10 +177,10 @@ code {
 .carousel-control-next-icon,
 .carousel-control-prev-icon
 {
-  background-color: red;
+  background-color: black;
 }
-.carousel img{
-  height: 90vh;
+.carousel img {
+  height: auto;
 }
 .howitwrap {
 	position: relative;
@@ -258,10 +256,11 @@ code {
 }
 .section-title h5 {
 	max-width: 1000px;
-  padding: 5px;
+  
 }
 .section-title .titlee {
   text-align: center;
+  padding: 15px;
 }
 .stcontent {	
 	padding:0 50px;
@@ -271,7 +270,7 @@ code {
  }
  
 
-@media only screen and (max-width:720px)
+@media only screen and (max-width:790px)
 {
   .howbox{
     display: flex;
@@ -302,6 +301,9 @@ code {
   .howlist li .iconcircle{
     margin: 10px 0 10px 0 ;
   }
+  .carousel img{
+    margin-top: 85px;
+    }
   
 } 
 /************************************************************************/
@@ -565,6 +567,9 @@ code {
   width: 100%;
   background-color: #002A44;
 }
+.about button{
+  margin-top:10px ;
+}
 .about .section-header {
   margin-bottom: 30px;
   margin-left: 30px;
@@ -605,12 +610,11 @@ code {
   margin: 0 150px 150px 0;
 }
 .about .about-img-3 {
-  margin-top:10px ;
+  margin:10px ;
   position: relative;
   height: 100%;
-  height: 100%;
-
 }
+
 .about .about-img-2 {
   position: absolute;
   height: 100%;
@@ -636,6 +640,7 @@ code {
 .serv{
   background-color: white;
 }
+
 @media (max-width: 767.98px) {
   .about .about-img {
       margin-bottom: 30px;
@@ -724,6 +729,17 @@ code {
   .our-team{ 
     margin-bottom: 30px;
     width: 95%;
+  }
+  .pic img{
+    height: 300px;
+  }
+}
+@media only screen and (max-width:490px){
+  .our-team{  
+    padding: 20px;
+  }
+  .pic img{
+    height: 300px;
   }
   
 }
@@ -939,8 +955,10 @@ form h2{
   flex-direction: row-reverse;
   align-items: center;
   margin-top: 5px;
-	
+  direction: ltr;
  }
+ 
+
 .floatt{
   width:60px;
 	height:60px;

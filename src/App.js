@@ -18,8 +18,6 @@ import Labor from './components/Labor';
 import Mediation from './components/Mediation';
 import Commerical from './components/Commerical';
 
-
-
 import LocaleContext from 'components/LocaleContext';
 import  {ContactUs}  from './components/ContactUs';
 import AOS from 'aos';
@@ -32,6 +30,8 @@ import Helmet from 'react-helmet';
 import { ThemeProvider } from 'react-bootstrap';
 import Personal from './components/Personal';
 import Companies from './components/Companies';
+import Merge from './components/Merge';
+import Corporate from './components/Corporate ';
 
 
 
@@ -40,6 +40,7 @@ function App() {
   const [locale, setLocale] = useState(i18n.language);
 
   i18n.on('languageChanged', (lng) => setLocale(i18n.language));
+   
   
   
   
@@ -52,8 +53,7 @@ function App() {
     once:false,
   });
  
-  
-
+    
   return (
     
     <React.Fragment>
@@ -69,7 +69,11 @@ function App() {
       <SscrollToTop>
       <ThemeProvider dir={locale === 'en' ? 'ltr' : 'rtl'}>
       <Navbarr />
-      <Float/>
+      <Float DivAttributes={{
+          lang: locale,
+          dir: locale === 'en' ? 'ltr' : 'rtl',
+          class: locale === "en" ? "float-left" : "float-right",
+        }} />
       <Routes>
       <Route  path='/home' element={<Home/>} />
       <Route  path='/' element={<Home/>} />
@@ -86,6 +90,8 @@ function App() {
       <Route  path='Services/commerical' element={<Commerical/>} />
       <Route  path='Services/personalandinheritance' element={<Personal/>} />
       <Route  path='Services/establishofcompanies' element={<Companies/>} />
+      <Route  path='Services/mergeandaquision' element={<Merge/>} />
+      <Route  path='Services/corporate' element={<Corporate/>} />
       </Routes>
       </ThemeProvider>
       </SscrollToTop> 

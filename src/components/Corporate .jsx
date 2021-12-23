@@ -1,11 +1,9 @@
 import { useTranslation } from 'react-i18next';
-import image2 from "../images/personal.jpg"
-import image1 from "../images/personal2.jpg"
-import image3 from "../images/personal1.jpg"
-import image4 from "../images/personal3.jpg"
+import image2 from "../images/corporate.jpg"
+import image1 from "../images/corporate2.jpg"
 import { useNavigate } from 'react-router-dom';
 
-const Personal =()=>{
+const Corporate  =()=>{
 
 const {t} = useTranslation()
 const navigate = useNavigate();
@@ -27,7 +25,7 @@ return(
     <div className="stcontent"> 
       <div className="section-title">
           <h3 className="titlee" data-aos="fade-down" >
-          <span data-aos="fade-down">{t("service-title6")}</span>
+          <span data-aos="fade-down">{t("service-title12")}</span>
           </h3>       
       </div>
       </div>
@@ -43,8 +41,8 @@ return(
                     
                         <div className='row'>
                         <div className='col-sm-7'>
-                         <h5 data-aos="fade-right">{t("service-6-1")}</h5>
-                         <h5 data-aos="fade-right">{t("service-6-2")}</h5>
+                         <h5 data-aos="fade-right">{t("service-12")}</h5>
+                         <h5 data-aos="fade-right">{t("service-12-1")}</h5>
                         </div>
                         <div className="col-sm-5">
                         <div>
@@ -57,20 +55,8 @@ return(
 
                        <div className='row'>
                         <div className='col-sm-7'>
-                         <h5 data-aos="fade-right">{t("service-6-3")}</h5>
-                        </div>
-                        <div className="col-sm-5">
-                        <div>
-                            <div data-aos="fade-down" className="about-img-3">
-                                <img src={image3} alt="Image"></img>
-                            </div>                        
-                        </div>
-                        </div>
-                       </div>
-
-                       <div className='row'>
-                        <div className='col-sm-7'>
-                         <h5 data-aos="fade-right">{t("service-6-18")}</h5>
+                         <h5 data-aos="fade-right">{t("service-12-2")}</h5>
+                         <h5 data-aos="fade-right">{t("service-12-3")}</h5>
                         </div>
                         <div className="col-sm-5">
                         <div>
@@ -81,38 +67,29 @@ return(
                         </div>
                        </div>
 
-                       <div className='row'>
-                        <div className='col-sm-7'>
-                         <h5 data-aos="fade-right">{t("service-6-19")}</h5>
-                        </div>
-                        <div className="col-sm-5">
-                        <div>
-                            <div data-aos="fade-down" className="about-img-3">
-                                <img src={image4} alt="Image"></img>
-                            </div>                        
-                        </div>
-                        </div>
-                       </div>
+
 
                        <h3 className="titlee" data-aos="fade-down" >
-                    <span data-aos="fade-down">{t("service-title6-2")}</span></h3> 
+                    <span data-aos="fade-down">{t("service-title12-1")}</span></h3> 
                     <div className='row'>
                     <div className='col-lg-7'>
                       <h5 data-aos="fade-right">
                         <ul>
-                        <li>{t("service-6-4")}</li>
-                        <li>{t("service-6-5")}</li>
-                        <li>{t("service-6-6")}</li>
-                        <li>{t("service-6-7")}</li>
-                        <li>{t("service-6-8")}</li>
-                        <li>{t("service-6-9")}</li>
-                        <li>{t("service-6-10")}</li>
-                        <li>{t("service-6-11")}</li>
-                        <li>{t("service-6-12")}</li>
-                        <li>{t("service-6-13")}</li>
-                        <li>{t("service-6-14")}</li>
-                        <li>{t("service-6-15")}</li>
-                        <li>{t("service-6-16")}</li>
+                        <li>{t("service-12-4")}</li>
+                        <li>{t("service-12-5")}</li>
+                        <li>{t("service-12-6")}</li>
+                        <li>{t("service-12-7")}</li>
+                        <li>{t("service-12-8")}</li>
+                        <li>{t("service-12-9")}</li>
+                        <li>{t("service-12-10")}</li>
+                        <li>{t("service-12-11")}</li>
+                        <li>{t("service-12-12")}</li>
+                        <li>{t("service-12-13")}</li>
+                        <li>{t("service-12-14")}</li>
+                        <li>{t("service-12-15")}</li>
+                        <li>{t("service-12-16")}</li>
+                        <li>{t("service-12-17")}</li>
+                        <li>{t("service-12-18")}</li>
                         </ul>
                         </h5>
                     </div>
@@ -128,4 +105,4 @@ return(
 
     )
 }
-export default Personal;
+export default Corporate ;

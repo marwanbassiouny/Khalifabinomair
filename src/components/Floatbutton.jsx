@@ -8,7 +8,7 @@ const Float =()=>{
 
     const {t} = useTranslation()
     const { locale } = useContext(LocaleContext); 
- 
+
  return(
    
    <div className="float-button">
@@ -32,8 +32,9 @@ const Float =()=>{
         <i className="label-arrow"></i>
     </div>
 </div>
-
 </div>
+
+
     )
 }
 export default Float;

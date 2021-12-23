@@ -62,12 +62,16 @@
     "service-title3":"commerical law",
     "service-title4":"litigation",
     "service-title5":"labor&employment",
+    "service-title5-2":"OUR EMPLOYMENT AND LABOR LEGAL SERVICES IN THE UAE",
     "service-title6":"personal status,inheritance",
+    "service-title6-2":"OUR FAMILY AND DIVORCE LEGAL SERVICES IN THE UAE",
     "service-title7":"establishment of companies",
     "service-title8":"merger&aquisition",
     "service-title9":"criminal law",
     "service-title10":"Banking & Finance",
     "service-title11":"mediation and arbitration",
+    "service-title12":"Corporate Services",
+    "service-title12-1":"OUR CORPORATE LEGAL SERVICES IN THE UAE",
 
     "service-1":"Our lawyers and consultants have years of experience in the country's real estate market and its laws. We offer professional legal assistance to support clients in cases involving land purchase, real estate financing,and investing successfully in the market, to name a few. We use our legal expertise to develop various types of contracts and real estate documents,settle disputes, handle property issues and represent clients in the selling or buying of property."
     ,
@@ -77,33 +81,96 @@
     ,
     "service-4":"We provide you with the proper legal consultancies and legal representation for litigation purposes in all criminal, civil, commercial fields, etc. Our efficient advocates and consultants have represented a lot of our clients along the previous decades in all stages of litigation before local and federal courts,prepared regulations and petitions, represented clients before courts of the state with its different degrees and types. We are distinguished in civil, commercial, criminal cases and disputes related to fright and marine field. We have strong background in lease disputes, personal status claims,family claims, open reports and claims, prepare, and supervise settlement agreements, civil claims and other litigation procedures."
     ,
-    "service-5":"Our office provides complete legal services for labor issues according to the state laws set for employees and employers. These services include without limitation, providing services for those seeking consultation on labor rights, requesting mediation services or evaluations of compensation claims,requesting legal aid for residency, transfer and cancellation cases (including:work escape, cases of deprivation and refutation, etc.) and other legal needs."
+    "service-5":"A market as dynamic, diverse, and multicultural as the UAE sees a global confluence of expectations, norms, and ethics when it comes to employment. At  Khalifa Bin Omair, we make it our mission to provide dedicated labour law support for both employers and employees and create equitable terms of employment in a manner compatible with the UAE labour law and relevant regulations.Our devoted team of corporate lawyers with over two decades of experience in the UAE labour law, support our clients in both public and private sectors, whether on the UAE mainland or within free zones, with all aspects of the employment law."
     ,
-    "service-6":"Our Office pays great attention to family law and legislations of personal status, we file cases relating to marriage, divorce, alimony, custody, seeing of sons, orders of filiation and de-filiation, obedience and conditional divorce, resolution of lawsuits relating to missed persons, in addition to distribution of inheritance portions and resolution of all disputes relating to legacies among Muslims or non-Muslims heirs, as well as all matter related to wills of all types."
+    "service-5-1":"Whilst working on labour policies and procedures, drafting and vetting labour contracts and agreements, our role as experienced labour lawyers in Dubai is to bring stakeholders to a similar point of reference. This process starts at the outset of the recruitment process, where our legal consultants and local advocate help ensure that the selection and hiring process is in line within the UAE law, as well as the subsequent labour contracts and relevant documents generated. We guide our clients navigate through the complex and fast changing employment environment in the UAE and advise on all areas of the employer-employee relationship, including HR policy, procedure documentation and employee handbooks, disciplinary concerns, grievance and dismissal procedures, with the expertise of our employment lawyers in Dubai."
     ,
-    "service-7":"It gives us great pleasure to help our clients to establish companies of all types and forms, either public joint stock companies, private joint stock or limited liability companies, limited partnership, joint ventures, sole proprietorship, holding companies or individual institutions, offshore companies. We also establish branches or representative offices of foreign companies, we help them to establish their business activities in the free zones in the UAE, through the preparation and drafting of their articles of association, and follow-up their establishment procedures with the competent governmental authorities, and registration of companies with economic departments, the commercial registry and the chambers of commerce. Furthermore, we help our foreign clients to choose their local partners from the UAE nationals."
+    "service-5-2":"Our employment lawyers in Dubai also assist our clients and their human resources departments with redundancy agreements, and the changing terms and conditions or employment transfers that might eventuate from mergers, acquisitions, divestment, or business reorganization. Other services include, employment policies, confidentiality, non-competition and non-solicitation, intellectual property protection and directors/managers’ duties and liabilities. Our bilingual advocates support and represent our corporate clients in all post-termination disputes and litigation procedures and assist with mediation at all labour committees.For any of your employment and labour law requirements, kindly reach out to us via the contact us form, email or phone and our team of labour lawyers in Dubai will be glad to assist you."
     ,
-    "service-7-1":"We also provide services in relation to drafting of separation contracts and follow up the liquidation of companies and writing off companies from economic departments registries and from the commercial registry. We help our clients to buy, acquire or merge with companies or institutions existing and registered in the UAE, through making inquiries about such companies, and preparing contracts for the sale of shares and register such sale contracts, in addition to all legal services relating to trade issues."
+    "service-5-3":"Human resources policies",
+    "service-5-4":"Labor force restructuring ",
+    "service-5-5": "Secondments",
+    "service-5-6": "Employment contracts ",
+    "service-5-7": "Employee transfers ",
+    "service-5-8": "Redundancy agreements",
+    "service-5-9": "Settlement agreements",
+    "service-5-10": "Disciplinary and dismissal procedures",
+    "service-5-11": "Due Diligence",
+    "service-5-12": "Compliance with government authorities",
+    "service-5-13": "Confidentiality agreements",
+    "service-5-14": "Non-competition and non-solicitation agreements",
+    "service-5-15": "Dispute resolution– Litigation (All UAE courts"
     ,
-    "service-8":""
+    "service-6-1":"At  Khalifa Bin Omair, our family lawyers in Dubai deliver legal guidance for all areas of family life. We help create the structures to safeguard family relations, and deal with disputes as they arise. From issues of separation and divorce, child custody, domestic violence and inheritance our team of experienced family and divorce lawyers in Dubai extend legal advice that covers sensitive situations – with confidentiality, impartiality and tact guaranteed."
+    ,
+    "service-6-2":"We help expatriates codify family relationships, rights and wills in a manner compliant with Shariah. We help translate family agreements and arrangements into documentation that comply with the local laws and can be easily enforced within the UAE court system. From wills and inheritance to custody and guardianship, we offer families peace of mind when dealing with contingencies."
+    ,
+    "service-6-3":"Our family lawyers speak multiple languages and our legal support ranges from guidance and advice to dispute resolution, court representation, compensation and ongoing legal support as required, where we seek the best outcome for the family unit. Our divorce lawyers are not just well versed in law; they also understand the sensitive nature of family disputes, and help family members reach equitable settlements with minimal disruption if possible. For any of your family law requirements, kindly reach out to us via the contact us form, email or phone and our family lawyers in Dubai will be glad to assist you."
+    ,
+    "service-6-4":"Legal consultation",
+    "service-6-5":"Marital settlements ",
+    "service-6-6": "Separation agreements",
+    "service-6-7": "Pre-Nuptial Agreements",
+    "service-6-8": "Post-Nuptial Agreements",
+    "service-6-9": "Divorce",
+    "service-6-10": "Legal documentation",
+    "service-6-11": "Alimony or maintenance claims",
+    "service-6-12": "Child custody",
+    "service-6-13": "Domestic abuse and violence",
+    "service-6-14": "Guardianship",
+    "service-6-15": "Inheritance",
+    "service-6-16": "Attestation of documents"
+    ,
+    "service-6-18": "Inheritance, estate planning, wills, guardianship, and the accurate execution thereof, play a crucial role in family stability and continuity. In a multicultural destination such as the UAE, home to expatriates from all over the world, our expert team can advise clients on ways to ensure the complex legal process of making a will or dealing with any financial affairs of a deceased loved one is seamless and sensitive family matters are finalized efficiently. Our Wills and Guardianship practice offers clients peace of mind by assisting in all aspects of estate planning, inheritance and guardianship. We prepare and document wills, trusts and guardianship agreements that can be effectively enforced within the UAE legal system – ensuring that families who have suffered bereavement are not additionally burdened by time-consuming costly, and legally complex court procedures."
+    ,
+    "service-6-19": "We help Non-Muslim expats understand that wills, trusts, guardianship agreements, and other family contracts need to comply with in the UAE law for effective execution. Absence of such compliant agreements can cause serious complications, with cases reverting by default to Shariah inheritance and guardianship rules. We also specialise in creating wills and guardianship agreements under the Dubai International Financial Centre (DIFC) Wills and Probate Registry."
+    ,
+    "service-7":"The right company structure creates the backbone for sustainable business success. Whether onshore, offshore, or in one of the many UAE free zones, our team of legal practitioners expertly guides clients in selecting the ideal company structure and advise them on compliance. Our legal advice on company formation starts with understanding our clients’ objectives leading to tracing a viable and compliant route to create a structure that fulfils them. Our in-depth knowledge of local regulations and the continuously changing foreign investment laws, backed by strong relationships with the authorities and government bodies, allow us to devise strategic optimal structures for our clients."
+    ,
+    "service-7-1":"We assist our clients in establishing various types of entities across mainland and free zone jurisdictions: Limited Liability Company (LLC), branch or representative office of a foreign company, foreign investment companies, commercial agency or distributor, professional service, free zone company and offshore company. This includes defining roles and responsibilities through Memorandum and Articles of Association, shareholder agreements and board and shareholders resolutions. We also advise clients on restructuring of their existing entities for better operational efficiency or regulatory compliance. We suggest appropriate structures in response to government tenders and help clearly define roles in matters of shareholder responsibility."
+    ,
+    "service-8":"Mergers and Acquisitions With the UAE being a regional business hub and as the market becoming more competitive across various industries, our M&A practice is helping to create amalgamated organisations and streamlined structures to power future prosperity. Our M&A experts assist clients throughout the process in undertaking some of the UAE’s most significant M&A deals. From the initial steps of deal negotiations, due diligence, drafting transaction documents and agreements, securing regulatory approvals from authorities and government to finalizing and closing, we ensure optimal outcomes during joint ventures, stock and asset purchases or divestment, corporate restructuring, mergers, acquisitions and strategic alliances."
+    ,
+    "service-8-1":"We are set apart by the cross-disciplinary expertise we bring to our M&A practice, creating a uniquely integrated knowledge and experience. Our goal is to deliver beneficial outcomes for businesses coupled with world-class service standards. Clients can rest assured of an integrated portfolio of expertise they can rely on for regulatory, financial, real estate, commercial, corporate and employment-related matters."
     ,
     "service-9":"Our team has wide and deep experiences in undertaking criminal cases before local courts, our efforts are focused on helping our clients efficiently and rapidly. Our activities in the criminal law field include representing clients before public prosecutors, criminal investigations, provide and provevidence, perform release procedures, etc."
     ,
-    "service-10-1":"The UAE’s banking and financial sectors are vibrant, dynamic and constantly evolving towards global best practice. Our legal team brings years of local expertise and international experience to navigate a changing environment as new products,technologies and regulatory frameworks are introduced."
+    "service-10-1":"Our pan-regional team of dedicated banking lawyers at Al Tamimi & Company has a long history in the finance sector, advising local and international banks, finance providers, corporate and sovereign entities and other market participants operating in the region.We advise on the full spectrum of banking and finance matters, ranging from financial regulation, product development, cross border finance transactions, structured finance, securitisations right through to debt capital markets and financial restructuring."
     ,
-    "service-10-2":"Our practice supports banks and financial institutions on their legal affairs, licensing and incorporation. We also advise corporate and commercial clients on financial and commercial transactions, preparation of loan agreements, insolvency, asset, private equity, real estate, project, trade and acquisition financing, anti-money-laundering, compliance with Shariah Law and regulations among others"
+    "service-10-2":"Our banking lawyers have an unrivalled breadth of experience and knowledge, advising prominent financial institutions, borrowers and sponsors across our regional network on the structuring, negotiation and documentation of finance transactions (both conventional and Islamic.Our Banking and Finance team have extensive experience working on finance transactions across the Middle East and North Africa (MENA) region, reflected in our position as a category leader across multiple jurisdictions."
     ,
-    "service-10-3":"Our team of banking and finance litigation lawyers are experts in financial dispute resolution including banking disputes,enforcements,compliance,corporate governance,bankruptcy,fraud and financial crime. We represent our clients in both local UAE courts and as well as DIFC courts."
-    ,
-    "service-10-4":"We regularly assist with ensuring compliance with tenets of Islamic finance,overseeing the creation of investment funds and structures,and the development of new financial products adhering to local law and Shariah principles."
-    ,
-    "service-10-5":"We provide counsel to clients on structuring the purchase and sale of large assets such as property,vehicle fleets,oil rigs, ships,manufacturing plants and other industrial equipment."
-    ,
+    
     "service-11-1":"The office's priority is to preserve and assist clients with attaining justice. We use our years of experience across legal fields to make sure you have access to fair, just and amicable results before resorting to a law court. We have successfully negotiated a lot of simple to complex mediation and arbitration cases across legal areas. Those were kept out of court, and we have successfully preserved the money and time of our clients (with many leading to profitable settlements. Thanks to our deep experiences and precise understanding local laws in the legal fields and our negotiation skills, we have achieved just and profitable settlements in different fields."
     ,
     "service-11-2":"Due to such expertise and competencies, our expertise and consultants have often been used to arbitrate complicated cases. This is due to our thorough and in-depth understanding of the arbitration process, as of pre-arbitration terms and conditions, through the selection of experts and arbitrators itself, and completion of arbitration results procedures."
     ,
-    
+    "service-12":"With years of experience in the UAE, our team of proficient corporate lawyers in Dubai are regarded as experts with extensive knowledge and understanding of the local business and legal environment. Set apart by the cross-disciplinary legal team we bring a unique integrated repository of corporate knowledge and legal experience, which makes us stand out as one of the most reputed corporate law firms in Dubai."
+    ,
+    "service-12-1":"Our multi-disciplinary team of corporate lawyers in Dubai advise clients on entry strategies into the UAE market, and provide them with legal support in structuring investments and navigating regulatory frameworks while staying focused on their overall commercial objectives. We pride ourselves with the highest standards of quality and responsiveness and act as consultants and expert legal advisors on all matters of business operation – particularly when there are legal ramifications to consider."
+    ,
+    "service-12-2":"We also offer a range of corporate services that include acting as nominee shareholder or company secretary, assisting with corporate action submissions, and interacting with regulatory authorities. Our comprehensive legal advisory services support clients operating in the UAE mainland as well as those within free zone jurisdictions."
+    ,
+    "service-12-3":"We are experts in designing enforceable contracts under UAE law, and regularly assist businesses with IP protection, trademark registration, franchising and other general business queries. For any of your corporate law requirements, kindly reach out to us via the contact us form, email or phone and our corporate lawyers in Dubai will be glad to assist you."
+    ,
+    "service-12-4":"Legal advisory services",
+    "service-12-5":"Corporate structuring",
+    "service-12-6": "Company formation and restructuring",
+    "service-12-7": "Joint venture or shareholders agreements",
+    "service-12-8": "Board composition and management arrangements",
+    "service-12-9": "Commercial contracts in line with the UAE jurisdiction",
+    "service-12-10": "Stock and asset purchases and sales",
+    "service-12-11": "Regulating frameworks",
+    "service-12-12": "IP Protection",
+    "service-12-13": "Trademark registration",
+    "service-12-14": "Franchising",
+    "service-12-15": "Mergers and acquisitions",
+    "service-12-16": "Sponsorship"
+    ,
+    "service-12-17": "Commercial agency advice and disputes"
+    ,
+    "service-12-18": "Commercial litigation"
+    ,
+
     "contact-title1":"say hello!",
     "contact-title2":"name:",
     "contact-title3":"phone number:",

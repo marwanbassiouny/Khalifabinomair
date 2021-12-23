@@ -1,10 +1,8 @@
-import React,{useState} from 'react';
-
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { Link } from 'react-router-dom';
 import LocaleContext from './LocaleContext';
 import { useContext } from 'react';
 import { Navbar,Nav,Container,NavDropdown} from 'react-bootstrap';

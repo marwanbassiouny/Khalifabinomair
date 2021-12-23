@@ -6,9 +6,14 @@ import GavelOutlinedIcon from '@mui/icons-material/GavelOutlined';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import DirectionsBoatOutlinedIcon from '@mui/icons-material/DirectionsBoatOutlined';
-import { Link } from 'react-router-dom';
+import BusinessOutlinedIcon from '@mui/icons-material/BusinessOutlined';
+import AttachMoneyOutlinedIcon from '@mui/icons-material/AttachMoneyOutlined';
+import LocalPoliceOutlinedIcon from '@mui/icons-material/LocalPoliceOutlined';
+import CachedOutlinedIcon from '@mui/icons-material/CachedOutlined';
+import CheckCircleOutlinedIcon from '@mui/icons-material/CheckCircleOutlined';
 import { useTranslation } from 'react-i18next';
- 
+import { Nav} from 'react-bootstrap';
+
 const Services=()=> {
   const {t} = useTranslation()
 
@@ -39,7 +44,7 @@ return (
           </div>
           <h4>{t("service-title1")}</h4>
           <span className="line"></span>
-          <Link to="realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>
         </div>
 
@@ -49,7 +54,7 @@ return (
           </div>
           <h4>{t("service-title2")}</h4>
           <span className="line"></span>
-          <Link to="maritime"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/maritime"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>
         </div>
         
@@ -59,7 +64,7 @@ return (
           </div>
           <h4>{t("service-title3")}</h4>
           <span className="line"></span>
-          <Link to="commerical"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/commerical"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>
         </div>
 
@@ -69,7 +74,7 @@ return (
           </div>
           <h4>{t("service-title4")}</h4>
           <span className="line"></span>
-          <Link to="litigation"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/litigation"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>
         </div>
 
@@ -79,7 +84,7 @@ return (
           </div>
           <h4>{t("service-title5")}</h4>
           <span className="line"></span>
-          <Link to="labor"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/labor"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>
         </div>
         
@@ -89,7 +94,7 @@ return (
           </div>
           <h4>{t("service-title6")}</h4>
           <span className="line"></span>
-          <Link to="personalandinheritance"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/personalandinheritance"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>
         </div>
 
@@ -99,49 +104,61 @@ return (
           </div>
           <h4>{t("service-title7")}</h4>
           <span className="line"></span>
-          <Link to="establishofcompanies"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/establishofcompanies"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>        
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
+            <i><BusinessOutlinedIcon fontSize="large"/></i>
+          </div>
+          <h4>{t("service-title12")}</h4>
+          <span className="line"></span>
+          <Nav.Link href="/services/corporate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
+          <p></p>        
+        </div>
+        
+        <div data-aos="flip-down" className="box ">
+          <div className="icon">
+            <i><CachedOutlinedIcon fontSize="large"/></i>
           </div>
           <h4>{t("service-title8")}</h4>
           <span className="line"></span>
-          <Link to="realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/mergeandaquision"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>        
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
+            <i><LocalPoliceOutlinedIcon fontSize="large"/></i>
           </div>
           <h4>{t("service-title9")}</h4>
           <span className="line"></span>
-          <Link to="Criminal"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/Criminal"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>        
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
+            <i><AttachMoneyOutlinedIcon fontSize="large"/></i>
           </div>
           <h4>{t("service-title10")}</h4>
           <span className="line"></span>
-          <Link to="banking"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/banking"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>        
         </div>
 
         <div data-aos="flip-down" className="box ">
           <div className="icon">
-            <i><WorkOutlineOutlinedIcon fontSize="large"/></i>
+            <i><CheckCircleOutlinedIcon fontSize="large"/></i>
           </div>
           <h4>{t("service-title11")}</h4>
           <span className="line"></span>
-          <Link to="mediation"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Link>
+          <Nav.Link href="/services/mediation"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>        
         </div>
+
+       
 
       </div>
       </div>
