@@ -11,7 +11,11 @@
     ,
     "back":"back"
     ,
-
+    "carousel-1":"Special needs."
+    ,
+    "carousel-2":"require special lawyers"
+    ,
+    
     "Introduction":"it is in your best interest to choose the best law firm that is likely to win the case for you otherwise you leave yourself prone to endless complications that almost end up with the loss of your case interests and rights If you are seeking legal aid as an individual or a corporate entity consider an expert law agency with a distinguished record of winning cases in the mazes ofcourts and legal system an expert who is characterized by integrity andcommitment that can help him dedicate time and effort for your case as if it is his own. We indeed honor the pledge that we have made in our office",
     "vision":"our vision",
     "ourvision":"To allow justice to prevail, and achieve excellence in our legal services.",
@@ -36,25 +40,25 @@
     "dubai":"dubai",
     "abu dhabi":"abu dhabi",
 
-    "member1-name":"essam sharaby",
-    "member2-name":"bassam",
+    "member1-name":"essam omar sharaby",
+    "member2-name":"bassam Alsilk",
     "member3-name":"hussien seif",
     "member4-name":"ahmed fouda",
     "member5-name":"mohamed khalil",
-    "member6-name":"name",
+    "member6-name":"sameh abdel dayem",
     "member7-name":"abdelrahman al-sabbah",
     "member8-name":"nessren",
     "member9-name":"salma",
     
-    "member1-job":"lawyer",
-    "member2-job":"lawyer",
-    "member3-job":"lawyer",
-    "member4-job":"lawyer",
-    "member5-job":"lawyer",
-    "member6-job":"lawyer",
-    "member7-job":"lawyer",
-    "member8-job":"lawyer",
-    "member9-job":"lawyer",
+    "member1-job":"Legal Consultant ",
+    "member2-job":"Executive Manager",
+    "member3-job":"Legal Researcher",
+    "member4-job":"Legal Researcher",
+    "member5-job":"Office Manager - Senior Legal Counsel",
+    "member6-job":"Legal Counsel",
+    "member7-job":"Legal Counsel",
+    "member8-job":"Legal Counsel",
+    "member9-job":"",
     
     "service":"our services",
     "service-title1":"real state issus",

@@ -1,6 +1,6 @@
 body,html {
   margin: 0;
-  font-family:  'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,7 +10,10 @@ body,html {
   overflow-x: hidden;
 }
 
-
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 
 .text-left h5{
   text-align: left;
@@ -18,7 +21,7 @@ body,html {
 .text-right h5{
   text-align: right;
 }
-
+/************************************************/
 
 /********************Navbar*********************/
 
@@ -67,6 +70,71 @@ body,html {
   width : 120px;
   padding-bottom:0.5rem;
  } */
+
+ @keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.animated-title {
+  color: rgb(255, 255, 255);
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 110vmin;
+}
+
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 68px;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid #000;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #e7cc2f;
+}
+.animated-title  span{
+  color:white
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+  color: white;
+}
+
  .navbar-nav .nav-link {
   font-size: 25px;
   color: wheat !important;
@@ -74,6 +142,7 @@ body,html {
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   transition: 0.8s;
  }
+
 .navbar{
   background-color: #002A44;
 }
@@ -270,7 +339,7 @@ body,html {
  }
  
 
-@media only screen and (max-width:790px)
+@media only screen and (max-width:1080px)
 {
   .howbox{
     display: flex;
@@ -289,7 +358,23 @@ body,html {
   .section-title h3 span {
     font-size: 30px;
     }
+    .animated-title > div div {
+      font-size: 30px;
+      padding: 2px 0;
+      position: absolute;
+    }
+    .animated-title {
+      color: #222;
+      font-family: Roboto, Arial, sans-serif;
+      height: 70vmin;
+      left: 50%;
+      position: absolute;
+      top: 60%;
+      transform: translate(-50%, -50%);
+      width: 70vmin;
+    }
 }
+
 @media only screen and (max-width:480px)
 {
   .howbox{
@@ -303,6 +388,21 @@ body,html {
   }
   .carousel img{
     margin-top: 85px;
+    }
+    .animated-title > div div {
+      font-size: 20px;
+      padding: 1px 0;
+      position: absolute;
+    }
+    .animated-title {
+      color: #222;
+      font-family: Roboto, Arial, sans-serif;
+      height: 60vmin;
+      left: 50%;
+      position: absolute;
+      top: 65%;
+      transform: translate(-50%, -50%);
+      width: 65vmin;
     }
   
 } 
@@ -684,7 +784,7 @@ body,html {
 }
 .pic img{
   width: 100%;
-  height: 15rem;
+  height: 15.5rem;
   border-radius: 50%;
 }
 .our-team .title{
@@ -717,12 +817,12 @@ body,html {
   line-height: 25px;
   border-radius: 50%;
   font-size: 15px;
-  color: #17bebb;
-  border: 1px solid #17bebb;
+  color: #002A44;
+  border: 1px solid #002A44;
   transition: all 0.5s ease 0s;
 }
 .our-team:hover .social li a:hover{
-  background: #17bebb;
+  background: #002A44;
   color: #fff;
 }
 @media only screen and (max-width: 990px){
