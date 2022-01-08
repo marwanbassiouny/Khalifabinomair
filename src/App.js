@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Services from './components/Services';
 import SscrollToTop from './components/ScrollToTop';
-import Float from 'components/Floatbutton';
 
 import RealState from './components/Realstate';
 import Maritime from './components/Maritime';
@@ -17,6 +16,7 @@ import Litigation from './components/Litigation';
 import Labor from './components/Labor';
 import Mediation from './components/Mediation';
 import Commerical from './components/Commerical';
+import Loading from 'components/Loading';
 
 import LocaleContext from 'components/LocaleContext';
 import  {ContactUs}  from './components/ContactUs';
@@ -41,9 +41,6 @@ function App() {
 
   i18n.on('languageChanged', (lng) => setLocale(i18n.language));
    
-  
-  
-  
    document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() { AOS.refresh(); }, 500);
 });
@@ -53,27 +50,26 @@ function App() {
     once:false,
   });
  
+  
     
   return (
     
     <React.Fragment>
       <LocaleContext.Provider value={{locale, setLocale}}>
-      <Suspense>
-      <Helmet htmlAttributes={{
-          lang: locale,
+      <Suspense fallback={<Loading />}>
+      <Helmet bodyAttributes={{
+          lang:locale,
           dir: locale === 'en' ? 'ltr' : 'rtl',
+          dir:locale === 'ar' ? 'rtl' : 'ltr',
           class: locale === "en" ? "text-left" : "text-right",
+          class: locale === "ar" ? "text-right" : "text-left",
         }} 
         />
       
       <SscrollToTop>
       <ThemeProvider dir={locale === 'en' ? 'ltr' : 'rtl'}>
       <Navbarr />
-      <Float DivAttributes={{
-          lang: locale,
-          dir: locale === 'en' ? 'ltr' : 'rtl',
-          class: locale === "en" ? "float-left" : "float-right",
-        }} />
+      
       <Routes>
       <Route  path='/home' element={<Home/>} />
       <Route  path='/' element={<Home/>} />

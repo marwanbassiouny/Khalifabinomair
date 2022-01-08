@@ -1,4 +1,4 @@
-import react from 'react';
+
 import { useTranslation } from 'react-i18next';
 import image2 from "../images/company1.jpg"
 import image from "../images/company2.jpg"

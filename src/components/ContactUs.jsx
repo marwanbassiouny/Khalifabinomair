@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import Navbar from './Navbar';
-import Footer from './Footer';
+
 import { useTranslation } from 'react-i18next';
 
 export const ContactUs = () => {

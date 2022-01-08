@@ -24,8 +24,8 @@ const Navbarr =()=> {
 
 <div className="fixed">
   <div className="header">
-            <div className="container">
-            <div className="social-icons-header">
+    <div className="container">
+        <div className="social-icons-header">
                 <a href="#"  title="facebook"> 
                   <i className="facebook" aria-hidden="true"><FacebookOutlinedIcon/></i>
                 </a>
@@ -60,7 +60,7 @@ const Navbarr =()=> {
 <Navbar className='navbar' expand="lg">
   <Container>
     <Navbar.Brand href="/home"><img src="" alt=""></img></Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="navbar-nav mx-auto">
         <Nav.Link href="/Home">{t("home")}</Nav.Link>

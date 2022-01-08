@@ -11,8 +11,8 @@ import AttachMoneyOutlinedIcon from '@mui/icons-material/AttachMoneyOutlined';
 import LocalPoliceOutlinedIcon from '@mui/icons-material/LocalPoliceOutlined';
 import CachedOutlinedIcon from '@mui/icons-material/CachedOutlined';
 import CheckCircleOutlinedIcon from '@mui/icons-material/CheckCircleOutlined';
-import { useTranslation } from 'react-i18next';
-import { Nav} from 'react-bootstrap';
+import {useTranslation } from 'react-i18next';
+import {Nav} from 'react-bootstrap';
 
 const Services=()=> {
   const {t} = useTranslation()
@@ -42,7 +42,7 @@ return (
           <div className="icon">
             <i><HomeOutlinedIcon  fontSize="large"/></i>
           </div>
-          <h4>{t("service-title1")}</h4>
+          <h4 >{t("service-title1")}</h4>
           <span className="line"></span>
           <Nav.Link href="/services/realstate"><button type="button" class="btn btn-outline-primary">{t("read")}</button></Nav.Link>
           <p></p>

@@ -32,10 +32,8 @@ code {
 .social-icons-header svg{
   color:#fff;
   line-height:30px;
-  
   margin: 0 5px;
   text-decoration:none;
-  
   border-radius: 20%;
   height: 25px;
   width: 25px;
@@ -87,20 +85,19 @@ code {
   height: 90vmin;
   left: 50%;
   position: absolute;
-  top: 50%;
+  top: 60%;
   transform: translate(-50%, -50%);
-  width: 110vmin;
+  width: 900px;
 }
-
 .animated-title > div {
-  height: 50%;
+  height: 60%;
   overflow: hidden;
   position: absolute;
   width: 100%;
 }
 .animated-title > div div {
-  font-size: 68px;
-  padding: 2vmin 0;
+  font-size: 60px;
+  padding: 1vmin 0;
   position: absolute;
 }
 .animated-title > div div span {
@@ -134,6 +131,7 @@ code {
   transform: translate(0, -100%);
   color: white;
 }
+
 
  .navbar-nav .nav-link {
   font-size: 25px;
@@ -243,14 +241,6 @@ code {
   padding-bottom: 120px;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon
-{
-  background-color: black;
-}
-.carousel img {
-  height: auto;
-}
 .howitwrap {
 	position: relative;
 	padding:50px 0;
@@ -369,12 +359,31 @@ code {
       height: 70vmin;
       left: 50%;
       position: absolute;
-      top: 60%;
+      top: 31%;
       transform: translate(-50%, -50%);
       width: 70vmin;
+     
     }
 }
-
+@media only screen and (max-width:990px)
+{
+    .animated-title > div div {
+      font-size: 30px;
+      padding: 2px 0;
+      position: absolute;
+    }
+    .animated-title {
+      color: #222;
+      font-family: Roboto, Arial, sans-serif;
+      height: 70vmin;
+      left: 50%;
+      position: absolute;
+      top: 40%;
+      transform: translate(-50%, -50%);
+      width: 70vmin;
+     
+    }
+}
 @media only screen and (max-width:480px)
 {
   .howbox{
@@ -389,20 +398,20 @@ code {
   .carousel img{
     margin-top: 85px;
     }
-    .animated-title > div div {
-      font-size: 20px;
-      padding: 1px 0;
-      position: absolute;
-    }
+
     .animated-title {
       color: #222;
       font-family: Roboto, Arial, sans-serif;
-      height: 60vmin;
+      height: 75vmin;
       left: 50%;
       position: absolute;
-      top: 65%;
+      top: 40%;
       transform: translate(-50%, -50%);
-      width: 65vmin;
+      width: 320px;
+    }
+    .servicesbox2 {
+      padding: 200px;
+      text-align:center;
     }
   
 } 
@@ -423,6 +432,7 @@ code {
   border: 2px solid white;
   perspective: 1000px;
   margin-bottom: 20px;
+  border-radius: 25px;
 }
 
 .flip-box-inner {
@@ -432,6 +442,7 @@ code {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  border-radius: 25px;
 }
 
 .flip-box:hover .flip-box-inner {
@@ -447,6 +458,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 20px;
 }
 
 .flip-box-front {
@@ -465,10 +477,10 @@ code {
     font-size: 15px;
   }
 }
-@media (max-width:480px)
+@media only screen and  (max-width:480px)
 {
   .flip-box-back h4 {
-    font-size: 14px;
+    font-size: 14.5px;
   }
 }
 
@@ -542,6 +554,18 @@ code {
 {
   margin:0
 }
+.footer-about{
+  list-style: none;
+  display: flex;
+  flex-direction:row;
+  padding-left: 0;
+}
+.footer-about p{
+  font-size: 13px;
+  padding: 2px;
+}
+
+
 @media (max-width:991px)
 {
   .site-footer [class^=col-]
@@ -560,13 +584,14 @@ code {
     text-align:center
   }
 }
-.social-icons
+.social-icons 
 {
   padding-left:0;
   margin-bottom:0;
   list-style:none
 }
-.social-icons li
+.social-icons li ,
+.footer-about li
 {
   display:inline-block;
   margin-bottom:4px
@@ -587,17 +612,44 @@ code {
   transition:all .2s linear;
   transition: 0.8s;
 }
+.footer-about a {
+  margin:3px;
+  color: black;
+  font-size:14px;
+  display:inline-block;
+  line-height:30px;
+  width:35px;
+  height:35px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
+  transition: 0.8s;
+}
+.footer-about a:active,.footer-about a:focus,.footer-about a:hover{
+  background-color:rgb(44, 204, 44);
+  color:#fff;
+}
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
   color:#fff;
   background-color:#29aafe
 }
-.social-icons.size-sm a
+.social-icons.size-sm a 
 {
   line-height:35px;
   height:35px;
   width:34px;
   font-size:14px;
+}
+.footer-about .size-sm a
+{
+  line-height:35px;
+  height:25px;
+  width:24px;
+  font-size:10px;
 }
 .social-icons a.facebook:hover
 {
@@ -624,16 +676,22 @@ code {
   padding: 70px 0;
 	text-align:center;
 }
-
 .pd-x {
   padding-top: 100px;
 }
 
-.servicesbox .section-title{padding-bottom:10px;}
-.servicesbox .section-title h3{
-  color:#fff;
+.servicesbox .section-title
+,.servicesbox2 .section-title
+{
+  padding-bottom:10px;
 }
-.servicesbox p {
+.servicesbox .section-title h3,
+.servicesbox2 .section-title h3{
+  color:gold;
+  font-size: 30px;
+}
+.servicesbox p ,
+.servicesbox2 p{
 	color: #fff;
 	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
@@ -643,6 +701,15 @@ code {
 .bg1 {
 	background: url(/src/images/service-bg-1.jpg) no-repeat left;
 	background-size: cover;
+}
+.servicesbox2 {
+  padding: 300px;
+	text-align:center;
+}
+.bg2 {
+	background: url(/src/images/dubai2.jpg) no-repeat left;
+	background-size: cover;
+  
 }
 .btn-group button {
   border: 1px solid; 
@@ -659,8 +726,14 @@ code {
   clear: both;
   display: table;
 }
-
-
+@media only screen and (max-width:480px)
+{
+    .servicesbox2 {
+      padding: 150px;
+      text-align:center;
+    }
+  
+} 
 /************************************************************/
 .about {
   position: relative;
@@ -741,38 +814,45 @@ code {
   background-color: white;
 }
 
+@media (max-width: 480px) {
+    .about .about-img {
+        height: auto;
+    }
+    .about .about-img-1 {
+      margin: 0 90px 100px 0;
+    }
+  
+}
 @media (max-width: 767.98px) {
   .about .about-img {
       margin-bottom: 30px;
       height: auto;
   }
-  
 }
 
 
 /************************************************************************/
-.Team{
-  background-color: #002A44;
-}
 
 #team h2{
   color: white;
 }
-
 /*////////////////////////////////////////////*/
+.Team{
+  background-color: #002A44;
+}
 .our-team{
-  padding: 20px 15px 30px;
-  background: #fff;
+  padding: 10px 20px;
+  background: white;
   border-radius: 15px;
   text-align: center;
   margin-top: 10px;
   margin:10px;
- 
+  max-width: 85%;
+  height:95%;
 }
 .our-team .pic{
   display: inline-block;
   width: 100%;
-  height: 100%;
   background: #fff;
   padding: 10px;
   margin-bottom: 25px;
@@ -780,12 +860,12 @@ code {
 }
 .our-team .pic:hover{
   background: #002A44;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .pic img{
   width: 100%;
-  height: 15.5rem;
-  border-radius: 50%;
+  height: 220px;
+  border-radius: 10%;
 }
 .our-team .title{
   display: block;
@@ -799,7 +879,7 @@ code {
   font-size: 15px;
   color: #17bebb;
   text-transform: capitalize;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .our-team .social{
   padding: 0;
@@ -825,24 +905,68 @@ code {
   background: #002A44;
   color: #fff;
 }
-@media only screen and (max-width: 990px){
-  .our-team{ 
-    margin-bottom: 30px;
-    width: 95%;
-  }
-  .pic img{
-    height: 300px;
-  }
-}
+
+
 @media only screen and (max-width:490px){
   .our-team{  
     padding: 20px;
+    max-width: 95%;
+    height: auto;
   }
   .pic img{
     height: 300px;
   }
-  
 }
+@media only screen and (min-width:490px){
+  .our-team{  
+    padding: 20px;
+    max-width: 95%;
+    height: 95%;
+  }
+  .pic img{
+    height: 250px;
+  }
+}
+@media only screen and (min-width:768px){
+  .our-team{ 
+    margin-bottom: 30px;
+    max-width: 95%;
+    height:90%;
+  }
+  .pic img{
+    height: 110px;
+  }
+}
+
+@media only screen and (min-width:900px){
+  .our-team{ 
+    margin-bottom: 30px;
+    max-width: 95%;
+    height: auto;
+  }
+  .pic img{
+    height: auto;
+  }
+}
+@media only screen and (min-width:1024px){
+  .our-team{
+    padding: 10px 20px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin:10px;
+    max-width: 85%;
+    height:97%;
+  }
+  
+  .pic img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10%;
+  }
+}
+
 /**********************************************/
 .details{
   text-align: center;
@@ -863,17 +987,25 @@ code {
 }
 
 .box{
-  width: 400px;
+  width: 420px;
   height:250px;
   margin: 10px;
   text-align: center;
   padding: 40px 20px;
   position: relative;
   z-index: 1;
-  border-radius: 20px;
+  border-radius: 45px;
   background-color:#002A44;
 }
 
+.box svg:hover{
+  color: white;
+  transition:0.8s ;
+}
+.box button{
+  border-radius: 10px;
+  text-transform: capitalize;
+}
 .box p {
   position: relative;
   z-index: 2;
@@ -980,8 +1112,10 @@ form h2{
   -webkit-transition: 0.5s linear;
   -o-transition: 0.5s linear;
   transition: 0.5s linear;
+  border-radius: 20px;
   color: white;
   font-weight: bold;
+  font-size: 25px;
   
 }
 .formWord .button:hover {
@@ -1001,6 +1135,7 @@ form h2{
   width: 100%;
   height: 50px;
   margin-bottom: 10%;
+  border-radius: 10px;
   border: 0;
   margin-top: 2%;
   padding-left: 3%;
@@ -1013,6 +1148,7 @@ form h2{
   margin-top: 2%;
   height: 80px;
   color: black;
+  border-radius: 10px;
   padding-left: 3%;
 }
 
@@ -1037,89 +1173,3 @@ form h2{
   }
 }
 /***************************************************/
-.float-button {
-  position: fixed;
-  color:#FFF;
-  bottom:80px;
-  border-radius:50px;
-	text-align:center;
-	z-index:1000;
-  right: 20px;
-	animation: bot-to-top 2s ease-out; 
-  float: right;
-  
-}
-
-.float{
-	display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  margin-top: 5px;
-  direction: ltr;
- }
- 
-
-.floatt{
-  width:60px;
-	height:60px;
-	bottom:40px;
-	background-color: #1cbd37;
-	color:#FFF;
-	border-radius: 50%;
-	text-align:center;
-	z-index:1000;
-	animation: bot-to-top 2s ease-out;
-  transition: 1s;
-}
-.floatt svg{
-  font-size: 30px;
-}
-.my-float{
-	font-size:30px;
-}
-.label-container{
-  opacity: 0;
-}
-
-.float:hover .label-container, .float.hover .label-container { opacity: 1; }
-
-.label-text{
-	color:#FFF;
-	background:rgba(51,51,51,0.5);
-	vertical-align:middle;
-	padding:10px;
-	border-radius:3px;
-}
- .floatt:hover{
-  color: black;
-}
-.bounce {
-  animation: bounce 2s infinite;
-}
-
-
-@keyframes bot-to-top {
-    0%   {bottom:-40px}
-    50%  {bottom:40px}
-}
-
-@keyframes scale-in {
-    from {transform: scale(0);opacity: 0;}
-    to {transform: scale(1);opacity: 1;  }
-}
-
-@keyframes bounce {
-  0%,
-  25%,
-  50%,
-  75%,
-  100% {
-      transform: translateY(0);
-  }
-  40% {
-      transform: translateY(-20px);
-  }
-  60% {
-      transform: translateY(-12px);
-  }
-}

@@ -1,5 +1,6 @@
 {
-  "name": "khalifa",
+  "name": "khalifabinomair",
+  "homepage": "http://khalifabinomair.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,6 +25,7 @@
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.14.3",
+    "react-owl-carousel": "^2.3.3",
     "react-reveal": "^1.2.2",
     "react-router": "^6.0.2",
     "react-router-dom": "^6.0.2",
