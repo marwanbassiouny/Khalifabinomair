@@ -20,7 +20,9 @@ import image17 from "../images/waref.jpg"
 import image18 from "../images/dalia.jpg"
 import image19 from "../images/rasesh.jpg"
 import image20 from "../images/abdelbaset.jpg"
-
+import image21 from "../images/sara.jpg"
+import image22 from "../images/mohamed adel.jpg"
+import image23 from "../images/ashraf.jpg"
 
 const About = ()=> {
 
@@ -129,7 +131,7 @@ const About = ()=> {
         <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
             <div class="our-team">
                 <div className="pic">
-                    <img src="{image}"></img>
+                    <img src={image21}></img>
                 </div>
                 <h3 className="title">{t("member2-name")}</h3>
                 <span className="post">{t("job0")}</span>
@@ -184,7 +186,7 @@ const About = ()=> {
         <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
             <div className="our-team">
                 <div className="pic">
-                    <img src="{image5}"></img>
+                    <img src={image23}></img>
                 </div>
                 <h3 className="title">{t("member6-name")}</h3>
                 <span className="post">{t("job2")}</span>
@@ -247,7 +249,7 @@ const About = ()=> {
         <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
             <div className="our-team">
                 <div className="pic">
-                    <img src="{image12}"></img>
+                    <img src={image22}></img>
                 </div>
                 <h3 className="title">{t("member11-name")}</h3>
                 <span className="post">{t("job3")}</span>
@@ -296,11 +298,23 @@ const About = ()=> {
                 </ul>
             </div>
         </div>
+        <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
+            <div className="our-team">
+                <div className="pic">
+                    <img src=""></img>
+                </div>
+                <h3 className="title">{t("member21-name")}</h3>
+                <span className="post">{t("job3")}</span>
+                <ul className="social">
+                </ul>
+            </div>
+        </div>
 
 </div>  
 
 
 <div className="row justify-content-center">
+
     <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
             <div className="our-team">
                 <div className="pic">
@@ -319,6 +333,7 @@ const About = ()=> {
                     <img src="{image10}"></img>
                 </div>
                 <h3 className="title">{t("member16-name")}</h3>
+                <span className="post">{t("job13")}</span>
                 <ul className="social">
                 </ul>
             </div>
@@ -374,25 +389,15 @@ const About = ()=> {
      
 </div>  
 
-<div className="row">
-        <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
-            <div className="our-team">
-                <div className="pic">
-                    <img src=""></img>
-                </div>
-                <h3 className="title">{t("member21-name")}</h3>
-                <ul className="social">
-                </ul>
-            </div>
-        </div>
-
-
+<div className="row ">
+  
         <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
             <div className="our-team">
                 <div className="pic">
                     <img src={image11}></img>
                 </div>
                 <h3 className="title">{t("member22-name")}</h3>
+                <span className="post">{t("job13")}</span>
                 <ul className="social">
                 </ul>
             </div>
@@ -421,23 +426,26 @@ const About = ()=> {
                 </ul>
             </div>
         </div>
- 
-</div>
 
-<div className="row justify-content-center">
-    <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
+  <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
             <div className="our-team">
                 <div className="pic">
                     <img src=""></img>
                 </div>
                 <h3 className="title">{t("member25-name")}</h3>
+                <span className="post">{t("job13")}</span>
                 <ul className="social">
                 </ul>
             </div>
         </div>
 
+</div>
+
+
+   
+
         
-    </div>
+    
 
 <div className="row justify-content-center">
         <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
