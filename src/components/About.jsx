@@ -23,6 +23,9 @@ import image20 from "../images/abdelbaset.jpg"
 import image21 from "../images/sara.jpg"
 import image22 from "../images/mohamed adel.jpg"
 import image23 from "../images/ashraf.jpg"
+import image24 from "../images/khalifa2.jpg"
+import image25 from "../images/rashed.jpg"
+import image26 from "../images/othman.jpg"
 
 const About = ()=> {
 
@@ -101,14 +104,12 @@ const About = ()=> {
                      <div data-aos="fade-up" data-aos-duration="3000" className="col-md-4 col-sm-6">
                      <div class="our-team">
                     <div className="pic ">
-                        <img src={image}></img>
+                        <img src={image24}></img>
                     </div>
                     <h3 className="title">{t("member0-name")}</h3>
                     <span className="post">{t("job0")}</span>
                     <span className="post">{t("job1")}</span>
                     <ul className="social">
-                        {/* <li><a href="#"><FacebookOutlinedIcon/></a></li> */}
-                        {/* <li><a href="#"><LinkedInIcon/></a></li>  */}
                     </ul>
                 </div>
             </div>
@@ -143,7 +144,7 @@ const About = ()=> {
         <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
             <div class="our-team">
                 <div className="pic">
-                    <img src="{image}"></img>
+                    <img src={image25}></img>
                 </div>
                 <h3 className="title">{t("member3-name")}</h3>
                 <span className="post">{t("job0")}</span>
@@ -237,7 +238,7 @@ const About = ()=> {
         <div data-aos="fade-up" data-aos-duration="2000" className="col-md-3 col-sm-6">
             <div className="our-team">
                 <div className="pic">
-                    <img src="{image12}"></img>
+                    <img src={image26}></img>
                 </div>
                 <h3 className="title">{t("member10-name")}</h3>
                 <span className="post">{t("job3")}</span>

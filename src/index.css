@@ -322,8 +322,8 @@ code {
 }
 .section-title h5 {
 	max-width: 90%;
-  text-align: justify;
-  word-spacing: -4px;
+  word-break: break-word;
+  word-spacing: 0.1rem;
 }
 .section-title .titlee {
   text-align: center;
@@ -336,7 +336,6 @@ code {
    color: white;
  }
  
-
 @media only screen and (max-width:1080px)
 {
   .howbox{
