@@ -619,14 +619,17 @@ code {
   transition:all .2s linear;
   transition: 0.8s;
 }
-.footer-about a {
+.footer-about a{
+  color: #000;
+  transition: 1s;
+}
+ .location {
   margin:3px;
   color: black;
-  font-size:14px;
   display:inline-block;
-  line-height:30px;
-  width:35px;
-  height:35px;
+  line-height:25px;
+  width:30px;
+  height:30px;
   text-align:center;
   margin-right:8px;
   border-radius:100%;
@@ -635,7 +638,7 @@ code {
   transition:all .2s linear;
   transition: 0.8s;
 }
-.footer-about a:active,.footer-about a:focus,.footer-about a:hover{
+.location a:active,.location:focus,.location:hover{
   background-color:rgb(44, 204, 44);
   color:#fff;
 }

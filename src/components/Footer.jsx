@@ -22,27 +22,33 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
   
            <ul className="footer-about">
             <div className="col">
-                <li><LocationOnOutlinedIcon/>{t("dubai")}</li>
-                <li><a href="https://api.whatsapp.com/send?phone=+9710501040332"><WhatsAppIcon/></a></li>
+            <div className="col-10">
+                <li><a href="https://www.google.com/maps/place/Roti+King+Sweet+Bakery+UAQ/@25.577992,55.5584253,17z/data=!3m1!4b1!4m5!3m4!1s0x3ef5fe6982298af3:0xb59122b5d07a9d3f!8m2!3d25.577992!4d55.560614"><LocationOnOutlinedIcon/></a>{t("dubai")}</li>
+                <li><a className='location' href="https://api.whatsapp.com/send?phone=+9710501040332"><WhatsAppIcon/></a></li>
                 <p>{t("street1")}</p>
-                <div className="col">
-                <li><LocationOnOutlinedIcon/>{t("abu dhabi")}</li>
-                <li><a href="https://api.whatsapp.com/send?phone=+971 50 256 7619"><WhatsAppIcon/></a></li>
-                <p>{t("street2")}</p>
-                
                 </div>
-            </div>
+                <div className="col">
+                <div className="col-10">
+                <li><a href="https://www.google.com/maps/place/24%C2%B029'27.0%22N+54%C2%B021'52.3%22E/@24.490839,54.3623323,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x36c839cffff2cad1!8m2!3d24.490839!4d54.364521?hl=en"><LocationOnOutlinedIcon/></a>{t("abu dhabi")}</li>
+                <li><a className='location' href="https://api.whatsapp.com/send?phone=+971 50 256 7619"><WhatsAppIcon/></a></li>
+                <p>{t("street2")}</p>
+                </div>
+              </div>
+          </div>
           
          
             <div className="col">
-                <li><LocationOnOutlinedIcon/>{t("umm")}</li>
-                <li><a href="https://api.whatsapp.com/send?phone="><WhatsAppIcon/></a></li>
+            <div className="col-12">
+                <li><a href="https://www.google.com/maps/place/Roti+King+Sweet+Bakery+UAQ/@25.577992,55.5584253,17z/data=!3m1!4b1!4m5!3m4!1s0x3ef5fe6982298af3:0xb59122b5d07a9d3f!8m2!3d25.577992!4d55.560614"><LocationOnOutlinedIcon/></a>{t("umm")}</li>
+                <li><a className='location' href="https://api.whatsapp.com/send?phone="><WhatsAppIcon/></a></li>
                 <p>{t("street3")}</p>
+                </div>
                 <div className="col">
-                <li><LocationOnOutlinedIcon/>{t("al")}</li>
-                <li><a href="https://api.whatsapp.com/send?phone="><WhatsAppIcon/></a></li>
+                <div className="col-12">
+                <li><a href="https://www.google.com/maps/place/Roti+King+Sweet+Bakery+UAQ/@25.577992,55.5584253,17z/data=!3m1!4b1!4m5!3m4!1s0x3ef5fe6982298af3:0xb59122b5d07a9d3f!8m2!3d25.577992!4d55.560614"><LocationOnOutlinedIcon/></a>{t("al")}</li>
+                <li><a className='location' href="https://api.whatsapp.com/send?phone="><WhatsAppIcon/></a></li>
                 <p>{t("street4")}</p>
-                
+                </div>
                 </div>
             </div>
           </ul>

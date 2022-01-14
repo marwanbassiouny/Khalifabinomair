@@ -58,11 +58,7 @@ export const ContactUs = () => {
                 <br />
                 <input className="button" type="submit" value={t("send")} />
               </div>
-              
-                
-
-                
-              
+      
             </form>
           </div>
         </div>
