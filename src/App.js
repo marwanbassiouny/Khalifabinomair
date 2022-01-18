@@ -56,7 +56,7 @@ function App() {
     
     <React.Fragment>
       <LocaleContext.Provider value={{locale, setLocale}}>
-      <Suspense fallback={<Loading />}>
+      <Suspense fallback={<Loading/>}>
       <Helmet bodyAttributes={{
           lang:locale,
           dir: locale === 'en' ? 'ltr' : 'rtl',

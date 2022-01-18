@@ -21,10 +21,8 @@ code {
 .text-right h5{
   text-align: right;
 }
-/************************************************/
 
 /********************Navbar*********************/
-
 .social-icons-header{
   margin-top: 5px;
  float: right;
@@ -131,8 +129,6 @@ code {
   transform: translate(0, -100%);
   color: white;
 }
-
-
  .navbar-nav .nav-link {
   font-size: 25px;
   color: wheat !important;
@@ -144,7 +140,6 @@ code {
  .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
-
 .navbar-toggler {
   border-color: white !important;
 } 
@@ -167,14 +162,12 @@ code {
   width: 100%; 
   z-index: 2;
 }
-
 .header{
   background-color: #002A44;
   display: flex;
   align-items: center;
   position: relative;
 }
-
  .header .iconbtnn{
   font-size: 17px;
   color: #fff;
@@ -238,8 +231,7 @@ code {
 }
 
 #basic-nav-dropdown:hover{
-  color:#3679dd ;
-  
+  color:#3679dd ; 
 }
 
 /************************************************/
@@ -274,8 +266,8 @@ code {
 }
 
 .howitwrap img {
-    max-width: 100%;
-    padding-bottom: 30px;
+  max-width: 100%;
+  padding-bottom: 30px;
 }
 
 .howlist li .howbox:after {
@@ -314,8 +306,7 @@ code {
   font-weight: 400;
   display:block;
   font-size: 36px;
-  
-  }
+}
 .section-title p {
 	max-width: 1000px;
   text-align:justify ; 
@@ -572,7 +563,6 @@ code {
   padding: 2px;
 }
 
-
 @media (max-width:991px)
 {
   .site-footer [class^=col-]
@@ -645,7 +635,6 @@ code {
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
   color:#fff;
-  background-color:#29aafe
 }
 .social-icons.size-sm a 
 {
