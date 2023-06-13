@@ -10,9 +10,7 @@ import i18n from "i18next";
 
 const Navbarr =()=> {
   const { locale } = useContext(LocaleContext);
-
   const {t} = useTranslation()
-
   function changeLocale (l) {
     if (locale !== l) {
       i18n.changeLanguage(l);

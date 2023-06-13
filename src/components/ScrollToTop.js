@@ -3,6 +3,7 @@ import { useLocation } from "react-router";
 
 const SscrollToTop = (props) => {
   const location = useLocation();
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);

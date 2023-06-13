@@ -32,6 +32,7 @@ import Personal from './components/Personal';
 import Companies from './components/Companies';
 import Merge from './components/Merge';
 import Corporate from './components/Corporate ';
+import ItemDetails from 'components/ItemDetails';
 
 
 
@@ -59,18 +60,18 @@ function App() {
       <Suspense fallback={<Loading/>}>
       <Helmet bodyAttributes={{
           lang:locale,
-          dir: locale === 'en' ? 'ltr' : 'rtl',
-          dir:locale === 'ar' ? 'rtl' : 'ltr',
-          class: locale === "en" ? "text-left" : "text-right",
-          class: locale === "ar" ? "text-right" : "text-left",
+          dir: locale === 'en' ? 'ltr' : locale === 'ar'? 'rtl' : 'ltr',
+          // dir:locale === 'ar' ? 'rtl' : 'ltr',
+          class: locale === "en" ? "text-left" : locale === "ar" ? "text-right" : "text-left",
+          // class: locale === "ar" ? "text-right" : "text-left",
         }} 
         />
       
       <SscrollToTop>
       <ThemeProvider dir={locale === 'en' ? 'ltr' : 'rtl'}>
       <Navbarr />
-      
       <Routes>
+      <Route  path="/Lawyers/:id" element={<ItemDetails/>} />
       <Route  path='/home' element={<Home/>} />
       <Route  path='/' element={<Home/>} />
       <Route  path='Aboutus' element={<About/>} />
